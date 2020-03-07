@@ -1,7 +1,7 @@
 {
-  "name": "@lukeshay/eslint-config-typescript",
+  "name": "@lukeshay/eslint-config",
   "version": "0.0.1",
-  "description": "My eslint configuration for typescript.",
+  "description": "My eslint configuration",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -19,19 +19,12 @@
   },
   "author": "Luke Shay <https://github.com/LukeShay>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/LukeShay/lukeshay-web/issues"
-  },
-  "homepage": "https://github.com/LukeShay/lukeshay-web#readme",
   "dependencies": {
-    "@lukeshay/eslint-config": "0.0.1",
-    "@typescript-eslint/eslint-plugin": "^2.22.0",
-    "@typescript-eslint/parser": "^2.22.0"
+    "prettier": "^1.19.1"
   },
   "peerDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "typescript": "^3.8.3"
+    "eslint-plugin-prettier": "^3.1.2"
   }
 }

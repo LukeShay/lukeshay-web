@@ -32,6 +32,13 @@
 
   "projects": [
     {
+      "packageName": "@lukeshay/eslint-config",
+      "projectFolder": "tools/eslint-config",
+      "reviewCategory": "tools",
+      "shouldPublish": true,
+      "versionPolicyName": "tools"
+    },
+    {
       "packageName": "@lukeshay/eslint-config-typescript",
       "projectFolder": "tools/eslint-config-typescript",
       "reviewCategory": "tools",

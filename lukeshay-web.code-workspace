@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "name": "@lukeshay/eslint-config",
+      "path": "tools/eslint-config"
+    },
+    {
       "name": "@lukeshay/eslint-config-typescript",
       "path": "tools/eslint-config-typescript"
     },
