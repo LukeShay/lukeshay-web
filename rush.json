@@ -15,7 +15,7 @@
   "gitPolicy": {},
 
   "repository": {
-    "url": "git@github.com:LukeShay/LukeShay/lukeshay-web.git"
+    "url": "https://github.com/LukeShay/lukeshay-web.git"
   },
 
   "eventHooks": {
