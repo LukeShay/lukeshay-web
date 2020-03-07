@@ -1,0 +1,57 @@
+{
+  "folders": [
+    {
+      "name": "@lukeshay/eslint-config-typescript",
+      "path": "tools/eslint-config-typescript"
+    },
+    {
+      "name": "Documentation",
+      "path": "docs"
+    },
+    {
+      "name": "Github Settings",
+      "path": ".github"
+    },
+    {
+      "name": "Project Files",
+      "path": "./"
+    },
+    {
+      "name": "Project Scripts",
+      "path": "scripts"
+    },
+    {
+      "name": "Rush",
+      "path": "Common"
+    },
+    {
+      "name": "VS Code Settings",
+      "path": ".vscode"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      {
+        "language": "typescript",
+        "autoFix": true
+      },
+      {
+        "language": "typescriptreact",
+        "autoFix": true
+      }
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "editorconfig.editorconfig",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint"
+    ],
+    "unwantedRecommendations": []
+  }
+}

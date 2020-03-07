@@ -1,0 +1,15 @@
+{
+  "name": "@lukeshay/eslint-config-typescript",
+  "version": "0.0.1",
+  "description": "My eslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LukeShay/lukeshay-web.git"
+  },
+  "author": "Luke Shay <https://github.com/LukeShay>",
+  "license": "MIT"
+}

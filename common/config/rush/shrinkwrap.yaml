@@ -1,0 +1,15 @@
+dependencies:
+  '@rush-temp/eslint-config-typescript': 'file:projects/eslint-config-typescript.tgz'
+packages:
+  'file:projects/eslint-config-typescript.tgz':
+    dev: false
+    name: '@rush-temp/eslint-config-typescript'
+    resolution:
+      integrity: sha512-K9QlycpSpDndZRNRdObCTMCexwWzh6OlUoMWMhxa9YPF+8Qm+kdQAwjEab50hJ8AQEspZv9qOQlUM0iYi1OcXA==
+      tarball: 'file:projects/eslint-config-typescript.tgz'
+    version: 0.0.0
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@rush-temp/eslint-config-typescript': 'file:./projects/eslint-config-typescript.tgz'
