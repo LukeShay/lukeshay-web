@@ -20,7 +20,7 @@
 
   "eventHooks": {
     "preRushInstall": [],
-    "postRushInstall": ["scripts/generate_vscode_workspace.sh"],
+    "postRushInstall": [],
     "preRushBuild": [],
     "postRushBuild": []
   },
