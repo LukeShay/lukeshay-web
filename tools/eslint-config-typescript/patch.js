@@ -1,3 +1,4 @@
+/* eslint-disable prefer-rest-params */
 // This monkey patches eslint to lookup ESLint plugins relative to a sharable
 // config's NPM package. This allows a consuming package to use a sharable
 // config's plugins without having to add the plugins as NPM dependencies.
@@ -5,10 +6,10 @@
 // To use, require this patch from your .eslintrc.js file.
 //
 // ```ts
-// require('@vertexvis/eslint-config-vertexvis');
+// require('@lukeshay/eslint-config/patch');
 //
 // module.exports = {
-//   extends: '@vertexvis/vertexvis'
+//   extends: '@lukeshay/eslint-config'
 // };
 // ```
 
