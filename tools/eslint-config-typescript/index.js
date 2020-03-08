@@ -20,7 +20,7 @@ module.exports = {
     '@typescript-eslint/member-ordering': ['error'],
     '@typescript-eslint/no-use-before-define': ['off'],
     '@typescript-eslint/no-unused-vars': ['error', { args: 'none' }],
-    '@typescript-eslint/no-explicity-any': ['error']
+    '@typescript-eslint/no-explicity-any': 0
   },
   overrides: [
     {
