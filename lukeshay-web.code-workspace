@@ -2,19 +2,19 @@
   "folders": [
     {
       "name": "@lukeshay/eslint-config",
-      "path": "/Users/luke.shay/dev/personal/lukeshay-web/tools/eslint-config"
+      "path": "lukeshay-web/tools/eslint-config"
     },
     {
       "name": "@lukeshay/eslint-config-typescript",
-      "path": "/Users/luke.shay/dev/personal/lukeshay-web/tools/eslint-config-typescript"
+      "path": "lukeshay-web/tools/eslint-config-typescript"
     },
     {
       "name": "Documentation",
-      "path": "/Users/luke.shay/dev/personal/lukeshay-web/docs"
+      "path": "lukeshay-web/docs"
     },
     {
       "name": "Github Settings",
-      "path": "/Users/luke.shay/dev/personal/lukeshay-web/.github"
+      "path": "lukeshay-web/.github"
     },
     {
       "name": "Project Files",
@@ -22,15 +22,15 @@
     },
     {
       "name": "Scripts",
-      "path": "/Users/luke.shay/dev/personal/lukeshay-web/scripts"
+      "path": "lukeshay-web/scripts"
     },
     {
       "name": "Rush",
-      "path": "/Users/luke.shay/dev/personal/lukeshay-web/Common"
+      "path": "lukeshay-web/Common"
     },
     {
       "name": "VS Code Settings",
-      "path": "/Users/luke.shay/dev/personal/lukeshay-web/.vscode"
+      "path": "lukeshay-web/.vscode"
     }
   ],
   "settings": {

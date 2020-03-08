@@ -11,8 +11,8 @@
     "format": "yarn lint --fix",
     "lint": "eslint --ext .ts,.tsx,.js,.jsx --ignore-path ../../.gitignore .",
     "build": "exit 0",
-    "test": "echo 'No unit tests defined'",
-    "test:coverage": "echo 'No unit tests defined'"
+    "test": "exit 0",
+    "test:coverage": "exit 0"
   },
   "repository": {
     "type": "git",
