@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "My eslint configuration for typescript.",
   "main": "index.js",
+  "public": true,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
