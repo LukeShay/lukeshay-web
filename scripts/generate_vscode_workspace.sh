@@ -10,7 +10,7 @@ shadow_dir="./.shadowroot"
 rush_file="./rush.json"
 extensions_file="./.vscode/extensions.json"
 settings_file="./.vscode/settings.json"
-workspace_file="./vertex-web.code-workspace"
+workspace_file="./lukeshay-web.code-workspace"
 
 update_workspace_projects() {
   tmp_workspace_file="$workspace_file.tmp"
@@ -67,4 +67,4 @@ main() {
   update_workspace_projects
 }
 
-main
+update_shadow_root

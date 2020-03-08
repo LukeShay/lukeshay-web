@@ -1,0 +1,59 @@
+{
+  "folders": [
+    {
+      "name": "@lukeshay/eslint-config",
+      "path": "/Users/luke.shay/dev/personal/lukeshay-web/tools/eslint-config"
+    },
+    {
+      "name": "@lukeshay/eslint-config-typescript",
+      "path": "/Users/luke.shay/dev/personal/lukeshay-web/tools/eslint-config-typescript"
+    },
+    {
+      "name": "Documentation",
+      "path": "/Users/luke.shay/dev/personal/lukeshay-web/docs"
+    },
+    {
+      "name": "Github Settings",
+      "path": "/Users/luke.shay/dev/personal/lukeshay-web/.github"
+    },
+    {
+      "name": "Project Files",
+      "path": "./.shadowroot"
+    },
+    {
+      "name": "Project Scripts",
+      "path": "/Users/luke.shay/dev/personal/lukeshay-web/scripts"
+    },
+    {
+      "name": "Rush",
+      "path": "/Users/luke.shay/dev/personal/lukeshay-web/Common"
+    },
+    {
+      "name": "VS Code Settings",
+      "path": "/Users/luke.shay/dev/personal/lukeshay-web/.vscode"
+    }
+  ],
+  "settings": {
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      {
+        "languag": "typescript",
+        "autoFix": true
+      },
+      {
+        "language": "typescriptreact",
+        "autoFix": true
+      }
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "editorconfig.editorconfig",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint"
+    ],
+    "unwantedRecommendations": []
+  }
+}
+e
