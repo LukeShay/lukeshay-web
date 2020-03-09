@@ -1,6 +1,6 @@
 {
   "name": "@lukeshay/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "My eslint configuration",
   "main": "index.js",
   "publishConfig": {
@@ -21,11 +21,10 @@
   "author": "Luke Shay <https://github.com/LukeShay>",
   "license": "MIT",
   "dependencies": {
-    "prettier": "^1.19.1"
-  },
-  "peerDependencies": {
+    "prettier": "^1.19.1",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2"
-  }
+  },
+  "peerDependencies": {}
 }

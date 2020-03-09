@@ -1,7 +1,7 @@
 {
-  "name": "@lukeshay/eslint-config-typescript",
-  "version": "0.0.5",
-  "description": "My eslint configuration for typescript.",
+  "name": "@lukeshay/eslint-config-react-typescript",
+  "version": "0.0.1",
+  "description": "My eslint configuration for react typescript.",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -25,9 +25,8 @@
   },
   "homepage": "https://github.com/LukeShay/lukeshay-web#readme",
   "dependencies": {
-    "@lukeshay/eslint-config": "0.0.3",
-    "@typescript-eslint/parser": "^2.22.0",
-    "@typescript-eslint/eslint-plugin": "^2.22.0"
+    "@lukeshay/eslint-config-typescript": "^0.0.5",
+    "eslint-plugin-react": "^7.19.0"
   },
   "peerDependencies": {
     "typescript": "^3.8.3"
