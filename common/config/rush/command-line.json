@@ -20,14 +20,14 @@
       "safeForSimultaneousRushProcesses": true,
       "ignoreMissingScript": true
     },
-    {
-      "name": "build",
-      "commandKind": "bulk",
-      "summary": "Runs the build for all projects.",
-      "description": "Invokes the `build` NPM script for each project.",
-      "enableParallelism": true,
-      "ignoreMissingScript": true
-    },
+    // {
+    //   "name": "build",
+    //   "commandKind": "bulk",
+    //   "summary": "Runs the build for all projects.",
+    //   "description": "Invokes the `build` NPM script for each project.",
+    //   "enableParallelism": true,
+    //   "ignoreMissingScript": true
+    // },
     {
       "name": "clean",
       "commandKind": "bulk",

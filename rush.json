@@ -41,6 +41,13 @@
       "reviewCategory": "tools",
       "shouldPublish": true,
       "versionPolicyName": "tools"
+    },
+    {
+      "packageName": "@lukeshay/eslint-config-react-typescript",
+      "projectFolder": "tools/eslint-config-react-typescript",
+      "reviewCategory": "tools",
+      "shouldPublish": true,
+      "versionPolicyName": "tools"
     }
   ]
 }
