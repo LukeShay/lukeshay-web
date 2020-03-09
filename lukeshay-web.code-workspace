@@ -41,14 +41,8 @@
     "eslint.validate": [
       "javascript",
       "javascriptreact",
-      {
-        "languag": "typescript",
-        "autoFix": true
-      },
-      {
-        "language": "typescriptreact",
-        "autoFix": true
-      }
+       "typescript",
+       "typescriptreact"
     ]
   },
   "extensions": {
@@ -60,4 +54,3 @@
     "unwantedRecommendations": []
   }
 }
-e
