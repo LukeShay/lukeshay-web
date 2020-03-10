@@ -1,0 +1,17 @@
+{
+  "name": "@lukeshay/typescript-config",
+  "entries": [
+    {
+      "version": "0.0.1",
+      "tag": "@lukeshay/typescript-config_v0.0.1",
+      "date": "Tue, 10 Mar 2020 15:15:25 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Created typscript configuration package."
+          }
+        ]
+      }
+    }
+  ]
+}
