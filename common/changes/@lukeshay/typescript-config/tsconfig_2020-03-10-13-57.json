@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/typescript-config",
+      "comment": "Created typscript configuration package.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@lukeshay/typescript-config",
+  "email": "luke.shay@vertexvis.com"
+}

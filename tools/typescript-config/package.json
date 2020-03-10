@@ -1,0 +1,30 @@
+{
+  "name": "@lukeshay/typescript-config",
+  "version": "0.0.0",
+  "description": "My tsconfig",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "exit 0",
+    "clean": "exit 0",
+    "format": "exit 0",
+    "test": "exit 0",
+    "lint": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LukeShay/lukeshay-web.git"
+  },
+  "author": "Luke Shay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukeShay/lukeshay-web/issues"
+  },
+  "homepage": "https://github.com/LukeShay/lukeshay-web#readme",
+  "files": [
+    "tsconfig.json",
+    "tsconfig-web.json"
+  ]
+}

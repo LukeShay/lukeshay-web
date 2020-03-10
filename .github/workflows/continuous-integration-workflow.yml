@@ -1,19 +1,16 @@
 name: lukeshay-web continuous integration
-on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: [master]
+on: [push, pull_request]
 
 jobs:
   change:
     runs-on: ubuntu-latest
+    if: github.event.label.name != 'stage-release'
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: '10.16'
-      # - run: node common/scripts/install-run-rush.js change -v
+      - run: node common/scripts/install-run-rush.js change -v
 
   check:
     runs-on: ubuntu-latest
