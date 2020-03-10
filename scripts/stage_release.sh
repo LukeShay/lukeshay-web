@@ -25,6 +25,8 @@ fi
 DATE=$(date +%m-%d-%y-%H-%M)
 BRANCH_NAME="stage-release-${DATE}"
 
+DATE=$(date +%m-%d-%y %H:%M)
+
 echo "Staging release on branch ${BRANCH_NAME}"
 git checkout -b ${BRANCH_NAME}
 
@@ -38,4 +40,6 @@ echo "Commiting and pushing changes to branch ${BRANCH_NAME}."
 git acm "Update changes ${DATE}."
 git push --set-upstream origin ${BRANCH_NAME}
 
-echo "Successfully staged release. Create a pull request for ${BRANCH_NAME} and merge once changes are done."
+echo "Successfully staged release. Creating a pull request for ${BRANCH_NAME}. Add automerge label."
+
+gh pr create -t "Stage release ${DATE}." -b "Staged release on ${DATE}." -w
