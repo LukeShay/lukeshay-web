@@ -39,6 +39,9 @@
     {
       "name": "VS Code Settings",
       "path": "./.vscode"
+    },
+    {
+      "path": "/Users/luke.shay/dev/route-rating/route-rating-web-app"
     }
   ],
   "settings": {
