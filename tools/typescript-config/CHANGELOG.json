@@ -2,6 +2,18 @@
   "name": "@lukeshay/typescript-config",
   "entries": [
     {
+      "version": "0.0.2",
+      "tag": "@lukeshay/typescript-config_v0.0.2",
+      "date": "Tue, 10 Mar 2020 22:57:00 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Switch to yarn."
+          }
+        ]
+      }
+    },
+    {
       "version": "0.0.1",
       "tag": "@lukeshay/typescript-config_v0.0.1",
       "date": "Tue, 10 Mar 2020 15:15:25 GMT",

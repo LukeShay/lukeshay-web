@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "comment": "",
+      "type": "none",
+      "packageName": "@lukeshay/eslint-config-typescript"
+    }
+  ],
+  "packageName": "@lukeshay/eslint-config-typescript",
+  "email": "shay.luke17@gmail.com"
+}
