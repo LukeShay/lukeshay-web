@@ -10,7 +10,7 @@
   "scripts": {
     "build": "exit 0",
     "clean": "rm -rf .rush *.log",
-    "format": "eslint --fix --ext .ts,.tsx,.js,.jsx --ignore-path ../../.gitignore .",
+    "format": "yarn lint --fix",
     "lint": "eslint --ext .ts,.tsx,.js,.jsx --ignore-path ../../.gitignore .",
     "test": "exit 0",
     "test:coverage": "exit 0"
