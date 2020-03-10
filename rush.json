@@ -47,6 +47,13 @@
       "reviewCategory": "tools",
       "shouldPublish": true,
       "versionPolicyName": "tools"
+    },
+    {
+      "packageName": "@lukeshay/typescript-config",
+      "projectFolder": "tools/typescript-config",
+      "reviewCategory": "tools",
+      "shouldPublish": true,
+      "versionPolicyName": "tools"
     }
   ]
 }
