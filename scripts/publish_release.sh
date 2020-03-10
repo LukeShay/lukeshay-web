@@ -1,28 +1,30 @@
 #!/bin/bash
 
-LIBS=$(ls -d libs/*)
-TOOLS=$(ls -d tools/*)
-SDKS=$(ls -d sdks/*)
+LIBS=libs/*
+TOOLS=tools/*
+SDKS=sdks/*
+PWD=$(pwd)
 
-for i in "${LIBS[@]}"
+npm config set "//registry.npmjs.org/:_authToken" "$1" && npm config set "@lukeshay:registry" "https://registry.npmjs.org/"
+
+# for f in ${LIBS}
+# do
+#     echo "Publishing lib ${f}"
+#     cd "${f}"
+#     pnpm publish
+# done
+
+for f in ${TOOLS}
 do
-    echo "Publishing lib ${i}"
-    cd "libs/${i}"
-    npm publish
+    echo "Publishing tool ${PWD}/${f}"
+    npm publish "${PWD}/${f}"
 done
 
-for i in "${TOOLS[@]}"
-do
-    echo "Publishing tool ${i}"
-    cd "tools/${i}"
-    npm publish
-done
-
-for i in "${SDKS[@]}"
-do
-    echo "Publishing sdk ${i}"
-    cd "sdks/${i}"
-    npm publish
-done
+# for f in ${SDKS}
+# do
+#     echo "Publishing sdk ${f}"
+#     cd "${f}"
+#     pnpm publish
+# done
 
 echo 'Done publishing changes.'

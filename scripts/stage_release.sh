@@ -36,4 +36,4 @@ echo "Commiting and pushing changes to branch ${BRANCH_NAME}."
 git acm "Stage release ${DATE}."
 git push --set-upstream origin ${BRANCH_NAME}
 
-echo "Successfully staged release. Create a pull request for ${BRANCH_NAME}."
+echo "Successfully staged release. Create a pull request for ${BRANCH_NAME} and merge once changes are done."

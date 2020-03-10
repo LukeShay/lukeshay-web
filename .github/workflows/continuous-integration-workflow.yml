@@ -1,5 +1,5 @@
 name: lukeshay-web continuous integration
-on: [push, pull_request]
+on: [push]
 
 jobs:
   change:
