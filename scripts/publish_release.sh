@@ -1,11 +1,11 @@
-#!/bin/bash
+#!/bin/sh
 
 LIBS=libs/*
 TOOLS=tools/*
 SDKS=sdks/*
 PWD=$(pwd)
 
-npm config set "//registry.npmjs.org/:_authToken" "$1" && npm config set "@lukeshay:registry" "https://registry.npmjs.org/"
+yarn config set "//registry.npmjs.org/:_authToken" "$1" && yarn config set "@lukeshay:registry" "https://registry.npmjs.org/"
 
 # for f in ${LIBS}
 # do
@@ -17,7 +17,7 @@ npm config set "//registry.npmjs.org/:_authToken" "$1" && npm config set "@lukes
 for f in ${TOOLS}
 do
     echo "Publishing tool ${PWD}/${f}"
-    npm publish "${PWD}/${f}"
+    yarn publish "${PWD}/${f}"
 done
 
 # for f in ${SDKS}

@@ -22,7 +22,7 @@ then
   exit 1
 fi
 
-DATE=$(date +%m-%d-%y-%H:%M)
+DATE=$(date +%m-%d-%y-%H-%M)
 BRANCH_NAME="stage-release-${DATE}"
 
 echo "Staging release on branch ${BRANCH_NAME}"
