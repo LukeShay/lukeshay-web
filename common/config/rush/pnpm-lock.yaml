@@ -2,6 +2,7 @@ dependencies:
   '@rush-temp/eslint-config': 'file:projects/eslint-config.tgz'
   '@rush-temp/eslint-config-react-typescript': 'file:projects/eslint-config-react-typescript.tgz_eslint@6.8.0'
   '@rush-temp/eslint-config-typescript': 'file:projects/eslint-config-typescript.tgz_eslint@6.8.0'
+  '@types/react': 16.9.23
   '@typescript-eslint/eslint-plugin': 2.23.0_2510d86781fe783b47b58303c18a0d9b
   '@typescript-eslint/parser': 2.23.0_eslint@6.8.0+typescript@3.8.3
   eslint: 6.8.0
@@ -9,6 +10,7 @@ dependencies:
   eslint-plugin-prettier: 3.1.2_eslint@6.8.0+prettier@1.19.1
   eslint-plugin-react: 7.19.0_eslint@6.8.0
   prettier: 1.19.1
+  react: 16.13.0
   typescript: 3.8.3
 lockfileVersion: 5.1
 packages:
@@ -45,6 +47,17 @@ packages:
     dev: false
     resolution:
       integrity: sha512-8+KAKzEvSUdeo+kmqnKrqgeE+LcA0tjYWFY7RPProVYwnqDjukzO+3b6dLD56rYX5TdWejnEOLJYOIeh4CXKuA==
+  /@types/prop-types/15.7.3:
+    dev: false
+    resolution:
+      integrity: sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
+  /@types/react/16.9.23:
+    dependencies:
+      '@types/prop-types': 15.7.3
+      csstype: 2.6.9
+    dev: false
+    resolution:
+      integrity: sha512-SsGVT4E7L2wLN3tPYLiF20hmZTPGuzaayVunfgXzUn1x4uHVsKH6QDJQ/TdpHqwsTLd4CwrmQ2vOgxN7gE24gw==
   /@typescript-eslint/eslint-plugin/2.23.0_2510d86781fe783b47b58303c18a0d9b:
     dependencies:
       '@typescript-eslint/experimental-utils': 2.23.0_eslint@6.8.0+typescript@3.8.3
@@ -298,6 +311,10 @@ packages:
       node: '>=4.8'
     resolution:
       integrity: sha512-eTVLrBSt7fjbDygz805pMnstIs2VTBNkRm0qxZd+M7A5XDdxVRWO5MxGBXZhjY4cqLYLdtrGqRf8mBPmzwSpWQ==
+  /csstype/2.6.9:
+    dev: false
+    resolution:
+      integrity: sha512-xz39Sb4+OaTsULgUERcCk+TJj8ylkL4aSVDQiX/ksxbELSqwkgt4d4RD7fovIdgJGSuNYqwZEiVjYY5l0ask+Q==
   /debug/4.1.1:
     dependencies:
       ms: 2.1.2
@@ -1047,6 +1064,16 @@ packages:
     dev: false
     resolution:
       integrity: sha512-GFMtL0vHkiBv9HluwNZTggSn/sCyEt9n02aM0dSAjGGyqyNlAyftYm4phPxdvCigG15JreC5biwxCgTAJZ7yAA==
+  /react/16.13.0:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      prop-types: 15.7.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-TSavZz2iSLkq5/oiE7gnFzmURKZMltmi193rm5HEoUDAXpzT9Kzw6oNZnGoai/4+fUnm7FqS5dwgUL34TujcWQ==
   /regenerator-runtime/0.13.4:
     dev: false
     resolution:
@@ -1368,7 +1395,9 @@ packages:
       integrity: sha512-7jXDIFXh5yJ/orPn4SXjuVrWWoi4Cr8jfV1eHv9CixKSbU+jY4mxfrBwAuDvupPNKpMUY+FeIqsVw/JLT9+B8g==
   'file:projects/eslint-config-react-typescript.tgz_eslint@6.8.0':
     dependencies:
+      '@types/react': 16.9.23
       eslint-plugin-react: 7.19.0_eslint@6.8.0
+      react: 16.13.0
       typescript: 3.8.3
     dev: false
     id: 'file:projects/eslint-config-react-typescript.tgz'
@@ -1376,7 +1405,7 @@ packages:
     peerDependencies:
       eslint: '*'
     resolution:
-      integrity: sha512-SMYnYLda/6xnLiVkuoL/l03Te9cTTu2RKAW5Wy8TDFllSyrXtGmUoXpKfdiYSQaK503YoF1ESlWkJBZ4S8pjbQ==
+      integrity: sha512-X3h1+ud9JQQTs84CdHoyvzBNCePqWlTzNT1pjQ2dJ1HWGs80HV2nzTGnQIww2EChpDL5rh6kD0hvdx4sI2il4A==
       tarball: 'file:projects/eslint-config-react-typescript.tgz'
     version: 0.0.0
   'file:projects/eslint-config-typescript.tgz_eslint@6.8.0':
@@ -1405,10 +1434,12 @@ packages:
       integrity: sha512-KVcDCEV0aU6ErME1bW7ClPEDj/MKH1D2N5ZNPgoLMEFSUkbDujOKCBj3ORs+jPUrnh+fCulkXaEzOrXX4zjD1A==
       tarball: 'file:projects/eslint-config.tgz'
     version: 0.0.0
+registry: ''
 specifiers:
   '@rush-temp/eslint-config': 'file:./projects/eslint-config.tgz'
   '@rush-temp/eslint-config-react-typescript': 'file:./projects/eslint-config-react-typescript.tgz'
   '@rush-temp/eslint-config-typescript': 'file:./projects/eslint-config-typescript.tgz'
+  '@types/react': '*'
   '@typescript-eslint/eslint-plugin': ^2.22.0
   '@typescript-eslint/parser': ^2.22.0
   eslint: ^6.8.0
@@ -1416,4 +1447,5 @@ specifiers:
   eslint-plugin-prettier: ^3.1.2
   eslint-plugin-react: ^7.19.0
   prettier: ^1.19.1
+  react: '*'
   typescript: ^3.8.3
