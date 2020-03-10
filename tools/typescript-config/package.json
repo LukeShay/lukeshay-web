@@ -10,8 +10,9 @@
     "build": "exit 0",
     "clean": "exit 0",
     "format": "exit 0",
+    "lint": "exit 0",
     "test": "exit 0",
-    "lint": "exit 0"
+    "test:coverage": "exit 0"
   },
   "repository": {
     "type": "git",

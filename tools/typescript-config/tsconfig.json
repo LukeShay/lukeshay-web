@@ -13,10 +13,9 @@
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": true,
     "moduleResolution": "node",
-    "declaration": true,
     "strict": true
   },
-  "include": ["./src/**/*.(j|t)sx?"],
+  "include": ["./src/**/*.jsx", "./src/**/*.js", "./src/**/*.tsx", "./src/**/*.ts"],
   "exclude": ["./node_modules/**/*"],
   "jsx": "preserve",
   "compileOnSave": true
