@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '10.16'
-      - run: node common/scripts/install-run-rush.js change -v
+      # - run: node common/scripts/install-run-rush.js change -v
 
   check:
     runs-on: ubuntu-latest
