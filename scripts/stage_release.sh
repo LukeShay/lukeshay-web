@@ -30,6 +30,7 @@ git checkout -b ${BRANCH_NAME}
 
 echo "Runnig 'rush publish -a'"
 node common/scripts/install-run-rush.js publish -a
+node common/scripts/install-run-rush.js change --overwrite --message ""
 
 echo "Commiting and pushing changes to branch ${BRANCH_NAME}."
 git acm "Stage release ${DATE}."
