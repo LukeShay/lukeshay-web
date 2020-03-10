@@ -8,47 +8,52 @@ on:
 jobs:
   change:
     runs-on: ubuntu-latest
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '10.16'
-    - run: node common/scripts/install-run-rush.js change -v
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.16'
+      - run: node common/scripts/install-run-rush.js change -v
 
   check:
     runs-on: ubuntu-latest
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '10.16'
-    - run: node common/scripts/install-run-rush.js install
-    - run: node common/scripts/install-run-rush.js rebuild --verbose
-    - run: node common/scripts/install-run-rush.js check --verbose
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.16'
+      - run: node common/scripts/install-run-rush.js install
+      - run: node common/scripts/install-run-rush.js rebuild --verbose
+      - run: node common/scripts/install-run-rush.js check --verbose
 
   lint:
     runs-on: ubuntu-latest
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '10.16'
-    - run: node common/scripts/install-run-rush.js install
-    - run: node common/scripts/install-run-rush.js lint --verbose
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.16'
+      - run: node common/scripts/install-run-rush.js install
+      - run: node common/scripts/install-run-rush.js lint --verbose
 
   test:
     runs-on: ubuntu-latest
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '10.16'
-    - run: node common/scripts/install-run-rush.js install
-    - run: node common/scripts/install-run-rush.js rebuild --verbose
-    - run: node common/scripts/install-run-rush.js test --verbose
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.16'
+      - run: node common/scripts/install-run-rush.js install
+      - run: node common/scripts/install-run-rush.js rebuild --verbose
+      - run: node common/scripts/install-run-rush.js test --verbose
 
   coverage:
     runs-on: ubuntu-latest
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '10.16'
-    - run: node common/scripts/install-run-rush.js install
-    - run: node common/scripts/install-run-rush.js rebuild --verbose
-    - run: node common/scripts/install-run-rush.js test:coverage --verbose
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.16'
+      - run: node common/scripts/install-run-rush.js install
+      - run: node common/scripts/install-run-rush.js rebuild --verbose
+      - run: node common/scripts/install-run-rush.js test:coverage --verbose
