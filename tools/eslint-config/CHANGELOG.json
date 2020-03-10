@@ -1,0 +1,17 @@
+{
+  "name": "@lukeshay/eslint-config",
+  "entries": [
+    {
+      "version": "0.0.4",
+      "tag": "@lukeshay/eslint-config_v0.0.4",
+      "date": "Tue, 10 Mar 2020 03:41:51 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update scripts."
+          }
+        ]
+      }
+    }
+  ]
+}
