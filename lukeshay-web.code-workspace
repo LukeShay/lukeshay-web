@@ -13,6 +13,10 @@
       "path": "./tools/eslint-config-react-typescript"
     },
     {
+      "name": "@lukeshay/typescript-config",
+      "path": "./tools/typescript-config"
+    },
+    {
       "name": "Documentation",
       "path": "./docs"
     },
