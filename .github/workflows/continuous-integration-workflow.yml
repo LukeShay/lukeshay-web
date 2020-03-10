@@ -1,0 +1,55 @@
+name: lukeshay-web continuous integration
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+runs-on: ubuntu-latest
+
+jobs:
+  change:
+    name: setup
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '10.16'
+    - run: node common/scripts/install-run-rush.js change -v
+
+    check:
+      name: check
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.16'
+      - run: node common/scripts/install-run-rush.js install
+      - run: node common/scripts/install-run-rush.js rebuild --verbose
+      - run: node common/scripts/install-run-rush.js check --verbose
+
+    lint:
+      name: lint
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.16'
+      - run: node common/scripts/install-run-rush.js install
+      - run: node common/scripts/install-run-rush.js lint --verbose
+
+    test:
+      name: test
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.16'
+      - run: node common/scripts/install-run-rush.js install
+      - run: node common/scripts/install-run-rush.js rebuild --verbose
+      - run: node common/scripts/install-run-rush.js test --verbose
+
+    coverage:
+      name: test coverage
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.16'
+      - run: node common/scripts/install-run-rush.js install
+      - run: node common/scripts/install-run-rush.js rebuild --verbose
+      - run: node common/scripts/install-run-rush.js test:coverage --verbose

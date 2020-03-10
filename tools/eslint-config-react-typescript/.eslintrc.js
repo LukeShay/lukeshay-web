@@ -1,4 +1,4 @@
-require('@lukeshay/eslint-config/patch');
+require('@lukeshay/eslint-config-typescript/patch');
 
 module.exports = {
   extends: './index.js',

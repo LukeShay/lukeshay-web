@@ -5,7 +5,7 @@
     {
       "name": "format",
       "commandKind": "bulk",
-      "summary": "Runs the formatter for all projectsxxxxxxxxxxxxxxxxxxx.",
+      "summary": "Runs the formatter for all projects.",
       "description": "Invokes the `format` NPM script for each project.",
       "enableParallelism": true,
       "safeForSimultaneousRushProcesses": true,
@@ -20,18 +20,10 @@
       "safeForSimultaneousRushProcesses": true,
       "ignoreMissingScript": true
     },
-    // {
-    //   "name": "build",
-    //   "commandKind": "bulk",
-    //   "summary": "Runs the build for all projects.",
-    //   "description": "Invokes the `build` NPM script for each project.",
-    //   "enableParallelism": true,
-    //   "ignoreMissingScript": true
-    // },
     {
       "name": "clean",
       "commandKind": "bulk",
-      "summary": "Clean all the projects projects.",
+      "summary": "Cleans all the projects projects.",
       "description": "Invokes the `clean` NPM script for each project.",
       "enableParallelism": true,
       "safeForSimultaneousRushProcesses": true,

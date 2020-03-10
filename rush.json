@@ -3,10 +3,9 @@
 
   "rushVersion": "5.21.0",
 
-  "pnpmVersion": "2.15.1",
-
-  // "npmVersion": "4.5.0",
-  // "yarnVersion": "1.9.4",
+  "pnpmVersion": "4.11.3",
+  // "npmVersion": "6.9.0",
+  // "yarnVersion": "1.22.4",
 
   "pnpmOptions": {},
 
