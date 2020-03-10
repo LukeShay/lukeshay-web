@@ -8,9 +8,10 @@
     "access": "public"
   },
   "scripts": {
-    "format": "yarn lint --fix",
-    "lint": "eslint --ext .ts,.tsx,.js,.jsx --ignore-path ../../.gitignore .",
     "build": "exit 0",
+    "clean": "rm -rf .rush *.log",
+    "format": "eslint --fix --ext .ts,.tsx,.js,.jsx --ignore-path ../../.gitignore .",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx --ignore-path ../../.gitignore .",
     "test": "exit 0",
     "test:coverage": "exit 0"
   },
@@ -27,7 +28,8 @@
   "dependencies": {
     "@lukeshay/eslint-config": "0.0.3",
     "@typescript-eslint/parser": "^2.22.0",
-    "@typescript-eslint/eslint-plugin": "^2.22.0"
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "eslint": "^6.8.0"
   },
   "peerDependencies": {
     "typescript": "^3.8.3"
