@@ -12,12 +12,15 @@ BRANCH_NAME="release-${DATE}"
 
 DATE=$(date +%m-%d-%y %H:%M)
 
-node common/scripts/install-run-rush.js install
-node common/scripts/install-run-rush.js rebuild --verbose
-node common/scripts/install-run-rush.js publish --apply --publish --npm-auth-token $1 --include-all
+node common/scripts/install-run-rush.js install \
+&& \
+node common/scripts/install-run-rush.js rebuild --verbose \
+&& \
+node common/scripts/install-run-rush.js publish --apply --publish --npm-auth-token $1 --include-all \
+&& \
 node common/scripts/install-run-rush.js change --overwrite --bulk --email "shay.luke17@gmail.com" --bump-type none
 
-git checkout -b BRANCH_NAME
+git checkout -b ${BRANCH_NAME}
 git acm "Release ${DATE}"
 git push --set-upstream origin ${BRANCH_NAME}
 
