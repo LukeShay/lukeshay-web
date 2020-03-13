@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/jest-config",
+      "comment": "Removed moduleNameMapper. Added transform for .svg. Move peer deps to deps. Fixed test regex.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@lukeshay/jest-config",
+  "email": "luke.shay@vertexvis.com"
+}

@@ -19,13 +19,13 @@ module.exports = {
   transform: {
     '^.+.(ts|tsx)$': 'ts-jest',
     '^.+.(js|jsx)$': 'babel-jest',
+    '^.+.svg$': 'jest-svg-transformer',
   },
   coverageReporters: ['lcov'],
+  reporters: ['default', 'jest-junit'],
+  // eslint-disable-next-line prettier/prettier
+  testRegex: '(test|spec)\.(js|jsx|ts|tsx)$',
   moduleNameMapper: {
     '\\.(css)$': 'identity-obj-proxy',
-    '\\.(svg)$': './svgSpriteMock.js',
   },
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  reporters: ['default', 'jest-junit'],
-  testRegex: '**/*.(test|spec).(js|jsx|ts|tsx)$',
 };

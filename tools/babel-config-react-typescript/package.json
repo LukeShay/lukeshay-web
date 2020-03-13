@@ -1,0 +1,35 @@
+{
+  "name": "@lukeshay/babel-config-react-typescript",
+  "version": "0.0.0",
+  "description": "My babel config for a react typescript project",
+  "scripts": {
+    "build": "exit 0",
+    "clean": "exit 0",
+    "format": "exit 0",
+    "lint": "exit 0",
+    "test": "exit 0",
+    "test:coverage": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LukeShay/lukeshay-web.git"
+  },
+  "author": "Luke Shay <https://github.com/LukeShay/lukeshay-web>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukeShay/lukeshay-web/issues"
+  },
+  "homepage": "https://github.com/LukeShay/lukeshay-web#readme",
+  "files": [
+    "babelrc.json"
+  ],
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "babel-plugin-dynamic-import-node": "^2.3.0",
+    "react-hot-loader": "^4.12.19"
+  }
+}
