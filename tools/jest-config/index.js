@@ -25,4 +25,7 @@ module.exports = {
   reporters: ['default', 'jest-junit'],
   // eslint-disable-next-line prettier/prettier
   testRegex: '(test|spec)\.(js|jsx|ts|tsx)$',
+  moduleNameMapper: {
+    '\\.(css)$': 'identity-obj-proxy',
+  },
 };
