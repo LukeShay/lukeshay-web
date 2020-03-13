@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "My Jest configuration.",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "scripts": {
     "build": "exit 0",
     "clean": "exit 0",
@@ -13,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LukeShay/lukeshay-web.git"
+    "url": "https://github.com/LukeShay/lukeshay-web.git"
   },
   "author": "Luke Shay <https://github.com/LukeShay>",
   "license": "MIT",
