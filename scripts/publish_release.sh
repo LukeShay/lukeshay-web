@@ -9,8 +9,9 @@ yarn config set "//registry.npmjs.org/:_authToken" "$1" && yarn config set "@luk
 
 DATE=$(date +%m-%d-%y-%H-%M)
 BRANCH_NAME="release-${DATE}"
-
 DATE=$(date +%m-%d-%y %H:%M)
+COMMIT="Release ${DATE}"
+PR_DESC="Published release on ${DATE}"
 
 node common/scripts/install-run-rush.js install \
 && \
@@ -21,7 +22,7 @@ node common/scripts/install-run-rush.js publish --apply --publish --npm-auth-tok
 node common/scripts/install-run-rush.js change --overwrite --bulk --email "shay.luke17@gmail.com" --bump-type none
 
 git checkout -b ${BRANCH_NAME}
-git acm "Release ${DATE}"
+git acm ${COMMIT}
 git push --set-upstream origin ${BRANCH_NAME}
 
-gh pr create -t "Release ${DATE}." -b "Published release on ${DATE}." -w
+gh pr create -t ${COMMIT} -b ${PR_DESC} -w

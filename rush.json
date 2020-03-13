@@ -72,6 +72,13 @@
       "reviewCategory": "tools",
       "shouldPublish": true,
       "versionPolicyName": "tools"
+    },
+    {
+      "packageName": "@lukeshay/prettier-config",
+      "projectFolder": "tools/prettier-config",
+      "reviewCategory": "tools",
+      "shouldPublish": true,
+      "versionPolicyName": "tools"
     }
   ]
 }
