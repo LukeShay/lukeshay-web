@@ -1,7 +1,11 @@
 {
   "name": "@lukeshay/babel-config-react-typescript",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "My babel config for a react typescript project",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "scripts": {
     "build": "exit 0",
     "clean": "exit 0",

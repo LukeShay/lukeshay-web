@@ -1,8 +1,8 @@
 {
-  "name": "@lukeshay/jest-config",
-  "version": "0.0.2",
-  "description": "My Jest configuration.",
-  "main": "index.js",
+  "name": "@lukeshay/prettier-config",
+  "version": "0.0.0",
+  "description": "My prettier config",
+  "entry": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
@@ -19,20 +19,12 @@
     "type": "git",
     "url": "https://github.com/LukeShay/lukeshay-web.git"
   },
-  "author": "Luke Shay <https://github.com/LukeShay>",
+  "author": "Luke Shay",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LukeShay/lukeshay-web/issues"
   },
   "homepage": "https://github.com/LukeShay/lukeshay-web#readme",
-  "dependencies": {
-    "babel-jest": "^25.1.0",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^25.1.0",
-    "jest-junit": "^10.0.0",
-    "jest-svg-transformer": "^1.0.0",
-    "ts-jest": "^25.2.1"
-  },
   "devDependencies": {
     "@lukeshay/eslint-config": "0.0.5",
     "eslint": "^6.8.0"
