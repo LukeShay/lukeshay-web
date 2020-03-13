@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/babel-config-react-typescript",
+      "comment": "Created babel config.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@lukeshay/babel-config-react-typescript",
+  "email": "luke.shay@vertexvis.com"
+}
