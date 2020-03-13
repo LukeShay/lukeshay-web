@@ -19,7 +19,7 @@ node common/scripts/install-run-rush.js rebuild --verbose \
 && \
 node common/scripts/install-run-rush.js publish --apply --publish --npm-auth-token $1 --include-all \
 && \
-node common/scripts/install-run-rush.js change --overwrite --bulk --email "shay.luke17@gmail.com" --bump-type none
+node common/scripts/install-run-rush.js change --overwrite --bulk --email "shay.luke17@gmail.com" --bump-type none || exit 1
 
 git checkout -b ${BRANCH_NAME}
 git acm ${COMMIT}
