@@ -10,8 +10,8 @@
   "scripts": {
     "build": "exit 0",
     "clean": "exit 0",
-    "format": "exit 0",
-    "lint": "exit 0",
+    "format": "yarn lint --fix",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx --ignore-path ../../.gitignore .",
     "test": "exit 0",
     "test:coverage": "exit 0"
   },

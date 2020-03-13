@@ -17,6 +17,10 @@
       "path": "./tools/typescript-config"
     },
     {
+      "name": "@lukeshay/jest-config",
+      "path": "./tools/jest-config"
+    },
+    {
       "name": "Documentation",
       "path": "./docs"
     },

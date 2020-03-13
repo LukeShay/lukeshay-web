@@ -1,0 +1,35 @@
+{
+  "name": "@lukeshay/jest-config",
+  "version": "0.0.0",
+  "description": "My Jest configuration.",
+  "main": "index.js",
+  "scripts": {
+    "build": "exit 0",
+    "clean": "exit 0",
+    "format": "yarn lint --fix",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx --ignore-path ../../.gitignore .",
+    "test": "exit 0",
+    "test:coverage": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeShay/lukeshay-web.git"
+  },
+  "author": "Luke Shay <https://github.com/LukeShay>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukeShay/lukeshay-web/issues"
+  },
+  "homepage": "https://github.com/LukeShay/lukeshay-web#readme",
+  "peerDependencies": {
+    "babel-jest": "^25.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.1.0",
+    "jest-junit": "^10.0.0",
+    "ts-jest": "^25.2.1"
+  },
+  "devDependencies": {
+    "@lukeshay/eslint-config": "0.0.5",
+    "eslint": "^6.8.0"
+  }
+}
