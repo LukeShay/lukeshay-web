@@ -1,0 +1,17 @@
+{
+  "name": "@lukeshay/jest-config",
+  "entries": [
+    {
+      "version": "0.0.1",
+      "tag": "@lukeshay/jest-config_v0.0.1",
+      "date": "Fri, 13 Mar 2020 00:58:38 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Created"
+          }
+        ]
+      }
+    }
+  ]
+}

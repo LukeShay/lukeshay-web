@@ -7,28 +7,18 @@ PWD=$(pwd)
 
 yarn config set "//registry.npmjs.org/:_authToken" "$1" && yarn config set "@lukeshay:registry" "https://registry.npmjs.org/"
 
-# for f in ${LIBS}
-# do
-#     echo "Publishing lib ${f}"
-#     cd "${f}"
-#     pnpm publish
-# done
+DATE=$(date +%m-%d-%y-%H-%M)
+BRANCH_NAME="release-${DATE}"
 
-# for f in ${TOOLS}
-# do
-#     echo "Publishing tool ${PWD}/${f}"
-#     yarn publish "${PWD}/${f}"
-# done
-
-# for f in ${SDKS}
-# do
-#     echo "Publishing sdk ${f}"
-#     cd "${f}"
-#     pnpm publish
-# done
+DATE=$(date +%m-%d-%y %H:%M)
 
 node common/scripts/install-run-rush.js install
 node common/scripts/install-run-rush.js rebuild --verbose
 node common/scripts/install-run-rush.js publish --apply --publish --npm-auth-token $1 --include-all
+node common/scripts/install-run-rush.js change --overwrite --bulk --email "shay.luke17@gmail.com" --bump-type none
 
-echo 'Done publishing changes.'
+git checkout -b BRANCH_NAME
+git acm "Release ${DATE}"
+git push --set-upstream origin ${BRANCH_NAME}
+
+gh pr create -t "Release ${DATE}." -b "Published release on ${DATE}." -w
