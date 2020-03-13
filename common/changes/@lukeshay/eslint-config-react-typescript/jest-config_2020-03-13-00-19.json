@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/eslint-config-react-typescript",
+      "comment": "",
+      "type": "none"
+    }
+  ],
+  "packageName": "@lukeshay/eslint-config-react-typescript",
+  "email": "luke.shay@vertexvis.com"
+}

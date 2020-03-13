@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/jest-config",
+      "comment": "Created",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@lukeshay/jest-config",
+  "email": "luke.shay@vertexvis.com"
+}
