@@ -50,14 +50,6 @@
       "allowWarningsInSuccessfulBuild": true
     },
     {
-      "name": "stage-release",
-      "commandKind": "global",
-      "shellCommand": "./scripts/stage_release.sh",
-      "safeForSimultaneousRushProcesses": false,
-      "summary": "Validates all changes are accounted for and stages the release.",
-      "description": "Invokes the `stage_release.sh` script."
-    },
-    {
       "name": "publish-release",
       "commandKind": "global",
       "shellCommand": "./scripts/publish_release.sh",
