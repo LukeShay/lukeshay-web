@@ -65,6 +65,13 @@
       "reviewCategory": "tools",
       "shouldPublish": true,
       "versionPolicyName": "tools"
+    },
+    {
+      "packageName": "@lukeshay/babel-config-react-typescript",
+      "projectFolder": "tools/babel-config-react-typescript",
+      "reviewCategory": "tools",
+      "shouldPublish": true,
+      "versionPolicyName": "tools"
     }
   ]
 }

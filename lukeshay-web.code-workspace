@@ -21,6 +21,10 @@
       "path": "./tools/jest-config"
     },
     {
+      "name": "@lukeshay/babel-config-react-typescript",
+      "path": "./tools/babel-config-react-typescript"
+    },
+    {
       "name": "Documentation",
       "path": "./docs"
     },
