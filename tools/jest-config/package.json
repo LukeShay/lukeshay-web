@@ -1,7 +1,7 @@
 {
-  "name": "@lukeshay/eslint-config-react-typescript",
-  "version": "0.0.3",
-  "description": "My eslint configuration for react typescript.",
+  "name": "@lukeshay/jest-config",
+  "version": "0.0.0",
+  "description": "My Jest configuration.",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -25,15 +25,15 @@
     "url": "https://github.com/LukeShay/lukeshay-web/issues"
   },
   "homepage": "https://github.com/LukeShay/lukeshay-web#readme",
-  "dependencies": {
-    "@lukeshay/eslint-config-typescript": "^0.0.7",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-prettier": "^3.1.2"
-  },
   "peerDependencies": {
-    "@types/react": "^16.9.23",
-    "react": "^16.13.0",
-    "typescript": "^3.8.3"
+    "babel-jest": "^25.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.1.0",
+    "jest-junit": "^10.0.0",
+    "ts-jest": "^25.2.1"
+  },
+  "devDependencies": {
+    "@lukeshay/eslint-config": "0.0.5",
+    "eslint": "^6.8.0"
   }
 }

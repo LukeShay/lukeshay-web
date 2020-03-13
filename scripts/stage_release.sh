@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 EXIT_STATUS=0
 
@@ -30,7 +30,7 @@ DATE=$(date +%m-%d-%y %H:%M)
 echo "Staging release on branch ${BRANCH_NAME}"
 git checkout -b ${BRANCH_NAME}
 
-echo "Runnig 'rush publish -a'"
+echo "Running 'rush publish -a'"
 node common/scripts/install-run-rush.js publish -a
 git acm "Stage release ${DATE}."
 

@@ -10,6 +10,10 @@
   "pnpmOptions": {},
 
   "nodeSupportedVersionRange": ">=10.13.0 <=11.0.0",
+  "ensureConsistentVersions": true,
+  "projectFolderMinDepth": 2,
+  "projectFolderMaxDepth": 2,
+  "telemetryEnabled": false,
 
   "gitPolicy": {},
 
@@ -51,6 +55,13 @@
     {
       "packageName": "@lukeshay/typescript-config",
       "projectFolder": "tools/typescript-config",
+      "reviewCategory": "tools",
+      "shouldPublish": true,
+      "versionPolicyName": "tools"
+    },
+    {
+      "packageName": "@lukeshay/jest-config",
+      "projectFolder": "tools/jest-config",
       "reviewCategory": "tools",
       "shouldPublish": true,
       "versionPolicyName": "tools"
