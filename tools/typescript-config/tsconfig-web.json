@@ -3,6 +3,6 @@
 
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "lib": ["es6", "dom"]
+    "lib": ["ESNext", "dom"]
   }
 }
