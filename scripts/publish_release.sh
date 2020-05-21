@@ -5,11 +5,11 @@ TOOLS=tools/*
 SDKS=sdks/*
 PWD=$(pwd)
 
-yarn config set "//registry.npmjs.org/:_authToken" "$1" && yarn config set "@lukeshay:registry" "https://registry.npmjs.org/"
+pnpm config set "//registry.npmjs.org/:_authToken" "$1" && pnpm config set "@lukeshay:registry" "https://registry.npmjs.org/"
 
-DATE=$(date +%m-%d-%y-%H-%M)
+DATE=$(date +'%m-%d-%y-%H-%M')
 BRANCH_NAME="release-${DATE}"
-DATE=$(date +%m-%d-%y %H:%M)
+DATE=$(date +'%m-%d-%y %H:%M')
 COMMIT="Release ${DATE}"
 PR_DESC="Published release on ${DATE}"
 
