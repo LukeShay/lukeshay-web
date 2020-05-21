@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/eslint-config",
+      "comment": "Update versions of dependencies.",
+      "type": "major"
+    }
+  ],
+  "packageName": "@lukeshay/eslint-config",
+  "email": "shay.luke17@gmail.com"
+}
