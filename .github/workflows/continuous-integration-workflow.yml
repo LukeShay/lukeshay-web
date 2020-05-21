@@ -10,6 +10,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.16'
+      - run: npx pnpm add -g pnpm
       - run: node common/scripts/install-run-rush.js change -v
 
   check:
@@ -19,6 +20,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.16'
+      - run: npx pnpm add -g pnpm
       - run: node common/scripts/install-run-rush.js install
       - run: node common/scripts/install-run-rush.js rebuild --verbose
       - run: node common/scripts/install-run-rush.js check
@@ -30,6 +32,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.16'
+      - run: npx pnpm add -g pnpm
       - run: node common/scripts/install-run-rush.js install
       - run: node common/scripts/install-run-rush.js lint
 
@@ -40,6 +43,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.16'
+      - run: npx pnpm add -g pnpm
       - run: node common/scripts/install-run-rush.js install
       - run: node common/scripts/install-run-rush.js rebuild --verbose
       - run: node common/scripts/install-run-rush.js test --verbose
@@ -51,6 +55,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.16'
+      - run: npx pnpm add -g pnpm
       - run: node common/scripts/install-run-rush.js install
       - run: node common/scripts/install-run-rush.js rebuild --verbose
       - run: node common/scripts/install-run-rush.js test:coverage --verbose
