@@ -2,7 +2,6 @@
   "$schema": "http://json.schemastore.org/tsconfig",
 
   "compilerOptions": {
-    "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "esModuleInterop": true,
@@ -10,9 +9,7 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "outDir": "./dist/",
-    "sourceMap": true,
-    "strict": true
-    "strictNullChecks": true,
+    "strict": true,
     "target": "es5"
   },
   "exclude": ["./node_modules/**/*", "./dist/**/*", "./src/**/*.spec.*", "./src/**/*.test.*"],

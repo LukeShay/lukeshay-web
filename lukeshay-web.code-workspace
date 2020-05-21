@@ -38,7 +38,7 @@
     },
     {
       "name": "Project Files",
-      "path": "./.shadowroot"
+      "path": "."
     },
     {
       "name": "Scripts",

@@ -4,5 +4,6 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "lib": ["ESNext", "dom"]
-  }
+  },
+  "include": ["./src/**/*.js", "./src/**/*.ts", "./src/**/*.jsx", "./src/**/*.tsx"]
 }
