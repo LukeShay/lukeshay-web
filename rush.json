@@ -3,13 +3,13 @@
 
   "rushVersion": "5.21.0",
 
-  // "pnpmVersion": "4.11.3",
-  // "npmVersion": "6.9.0",
-  "yarnVersion": "1.13.0",
+  "pnpmVersion": "4.14.2",
+  // "npmVersion": "6.14.4",
+  // "yarnVersion": "1.13.0",
 
   "pnpmOptions": {},
 
-  "nodeSupportedVersionRange": ">=10.13.0 <=11.0.0",
+  "nodeSupportedVersionRange": ">=11.0.0 <=13.0.0",
   "ensureConsistentVersions": true,
   "projectFolderMinDepth": 2,
   "projectFolderMaxDepth": 2,
