@@ -38,7 +38,7 @@
     },
     {
       "name": "Project Files",
-      "path": "."
+      "path": "./.shadowroot"
     },
     {
       "name": "Scripts",
@@ -51,20 +51,14 @@
     {
       "name": "VS Code Settings",
       "path": "./.vscode"
-    },
-    {
-      "path": "/Users/luke.shay/dev/route-rating/route-rating-web-app"
-    },
-    {
-      "path": "/Users/luke.shay/dev/vertex/manufacturing-ui"
     }
   ],
   "settings": {
     "eslint.validate": [
       "javascript",
       "javascriptreact",
-       "typescript",
-       "typescriptreact"
+      "typescript",
+      "typescriptreact"
     ]
   },
   "extensions": {
