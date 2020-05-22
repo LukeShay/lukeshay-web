@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/babel-config-react-typescript",
+      "comment": "Update versions of dependencies.",
+      "type": "major"
+    }
+  ],
+  "packageName": "@lukeshay/babel-config-react-typescript",
+  "email": "shay.luke17@gmail.com"
+}

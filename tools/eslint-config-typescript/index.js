@@ -1,11 +1,11 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'prettier'],
   extends: [
-    '@lukeshay/eslint-config',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
     'prettier/@typescript-eslint',
+    '@lukeshay/eslint-config',
   ],
   rules: {
     '@typescript-eslint/indent': 'off',
@@ -20,7 +20,7 @@ module.exports = {
     '@typescript-eslint/member-ordering': ['error'],
     '@typescript-eslint/no-use-before-define': ['off'],
     '@typescript-eslint/no-unused-vars': ['error', { args: 'none' }],
-    '@typescript-eslint/no-explicity-any': 0,
+    '@typescript-eslint/no-explicity-any': 2,
   },
   overrides: [
     {

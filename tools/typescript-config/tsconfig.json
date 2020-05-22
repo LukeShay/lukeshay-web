@@ -2,21 +2,17 @@
   "$schema": "http://json.schemastore.org/tsconfig",
 
   "compilerOptions": {
-    "lib": ["es6"],
-    "outDir": "./dist/",
-    "sourceMap": true,
-    "module": "esnext",
-    "jsx": "react",
-    "target": "es5",
-    "allowJs": true,
-    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strictNullChecks": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext"],
+    "module": "ESNext",
     "moduleResolution": "node",
-    "strict": true
+    "outDir": "./dist/",
+    "strict": true,
+    "target": "es5"
   },
-  "include": ["./src/**/*.jsx", "./src/**/*.js", "./src/**/*.tsx", "./src/**/*.ts"],
-  "exclude": ["./node_modules/**/*"],
-  "jsx": "preserve",
+  "exclude": ["./node_modules/**/*", "./dist/**/*", "./src/**/*.spec.*", "./src/**/*.test.*"],
+  "include": ["./src/**/*.js", "./src/**/*.ts"],
   "compileOnSave": true
 }
