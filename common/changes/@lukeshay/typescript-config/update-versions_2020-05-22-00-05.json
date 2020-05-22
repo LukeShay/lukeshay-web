@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/typescript-config",
+      "comment": "test",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@lukeshay/typescript-config",
+  "email": "shay.luke17@gmail.com"
+}
