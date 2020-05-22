@@ -2,6 +2,29 @@
   "name": "@lukeshay/typescript-config",
   "entries": [
     {
+      "version": "1.0.0",
+      "tag": "@lukeshay/typescript-config_v1.0.0",
+      "date": "Fri, 22 May 2020 00:19:10 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Update versions of dependencies."
+          }
+        ],
+        "patch": [
+          {
+            "comment": "test"
+          },
+          {
+            "comment": "test"
+          },
+          {
+            "comment": "test"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.0.2",
       "tag": "@lukeshay/typescript-config_v0.0.2",
       "date": "Tue, 10 Mar 2020 22:57:00 GMT",

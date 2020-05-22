@@ -1,0 +1,33 @@
+{
+  "name": "@lukeshay/prettier-config",
+  "entries": [
+    {
+      "version": "1.0.0",
+      "tag": "@lukeshay/prettier-config_v1.0.0",
+      "date": "Fri, 22 May 2020 00:19:10 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Create prettier config."
+          },
+          {
+            "comment": "test"
+          },
+          {
+            "comment": "test"
+          }
+        ],
+        "major": [
+          {
+            "comment": "Update versions of dependencies."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@lukeshay/eslint-config\" from `0.0.5` to `1.0.0`"
+          }
+        ]
+      }
+    }
+  ]
+}

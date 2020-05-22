@@ -1,0 +1,31 @@
+{
+  "name": "@lukeshay/babel-config-react-typescript",
+  "entries": [
+    {
+      "version": "1.0.0",
+      "tag": "@lukeshay/babel-config-react-typescript_v1.0.0",
+      "date": "Fri, 22 May 2020 00:19:10 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Created babel config."
+          },
+          {
+            "comment": "test"
+          },
+          {
+            "comment": "test"
+          },
+          {
+            "comment": "test"
+          }
+        ],
+        "major": [
+          {
+            "comment": "Update versions of dependencies."
+          }
+        ]
+      }
+    }
+  ]
+}
