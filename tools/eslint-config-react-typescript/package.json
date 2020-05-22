@@ -1,6 +1,6 @@
 {
   "name": "@lukeshay/eslint-config-react-typescript",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "My eslint configuration for react typescript.",
   "main": "index.js",
   "publishConfig": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/LukeShay/lukeshay-web#readme",
   "dependencies": {
-    "@lukeshay/eslint-config-typescript": "^0.0.7",
+    "@lukeshay/eslint-config-typescript": "^1.0.0",
     "eslint-plugin-react": "^7.19.0",
     "prettier": "^2.0.5",
     "eslint": "^7.0.0",

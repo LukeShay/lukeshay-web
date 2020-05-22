@@ -1,4 +1,4 @@
-# Change Log - @lukeshay/jest-config
+# Change Log - @lukeshay/babel-config-react-typescript
 
 This log was last generated on Fri, 22 May 2020 00:19:10 GMT and should not be manually modified.
 
@@ -11,16 +11,8 @@ Fri, 22 May 2020 00:19:10 GMT
 
 ### Patches
 
-- Removed moduleNameMapper. Added transform for .svg. Move peer deps to deps. Fixed test regex.
-- Did not remove moduleNameMapper.
+- Created babel config.
 - test
 - test
 - test
-
-## 0.0.1
-Fri, 13 Mar 2020 00:58:38 GMT
-
-### Patches
-
-- Created
 
