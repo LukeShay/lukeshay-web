@@ -10,8 +10,8 @@
   "scripts": {
     "build": "exit 0",
     "clean": "rm -rf .rush *.log",
-    "format": "exit 0",
-    "lint": "exit 0",
+    "format": "eslint . --ext .js --ignore-path ../../.gitignore --fix",
+    "lint": "eslint . --ext .js --ignore-path ../../.gitignore",
     "test": "exit 0",
     "test:coverage": "exit 0"
   },

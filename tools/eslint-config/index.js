@@ -1,6 +1,7 @@
 module.exports = {
   parserOptions: {
     ecmaVersion: 6,
+    sourceType: 'module',
   },
   plugins: ['prettier'],
   extends: ['plugin:prettier/recommended'],
@@ -25,5 +26,10 @@ module.exports = {
       },
     ],
     'prettier/prettier': 'error',
+  },
+  env: {
+    jasmine: true,
+    jest: true,
+    node: true,
   },
 };
