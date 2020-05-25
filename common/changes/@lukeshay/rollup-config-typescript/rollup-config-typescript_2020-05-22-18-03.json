@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/rollup-config-typescript",
+      "comment": "New Package",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@lukeshay/rollup-config-typescript",
+  "email": "lshay@sourcesallies.com"
+}

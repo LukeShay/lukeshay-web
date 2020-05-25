@@ -1,7 +1,7 @@
 {
-  "name": "@lukeshay/eslint-config",
-  "version": "1.0.0",
-  "description": "My eslint configuration",
+  "name": "@lukeshay/PACKAGE_NAME",
+  "version": "0.0.5",
+  "description": "My PACKAGE_NAME configuration",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -10,8 +10,8 @@
   "scripts": {
     "build": "exit 0",
     "clean": "rm -rf .rush *.log",
-    "format": "eslint . --ext .js --ignore-path ../../.gitignore --fix",
-    "lint": "eslint . --ext .js --ignore-path ../../.gitignore",
+    "format": "exit 0",
+    "lint": "exit 0",
     "test": "exit 0",
     "test:coverage": "exit 0"
   },

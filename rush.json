@@ -79,6 +79,13 @@
       "reviewCategory": "tools",
       "shouldPublish": true,
       "versionPolicyName": "tools"
+    },
+    {
+      "packageName": "@lukeshay/rollup-config-typescript",
+      "projectFolder": "tools/rollup-config-typescript",
+      "reviewCategory": "tools",
+      "shouldPublish": true,
+      "versionPolicyName": "tools"
     }
   ]
 }

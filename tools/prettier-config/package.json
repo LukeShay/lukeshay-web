@@ -10,8 +10,8 @@
   "scripts": {
     "build": "exit 0",
     "clean": "exit 0",
-    "format": "yarn lint --fix",
-    "lint": "eslint --ext .ts,.tsx,.js,.jsx --ignore-path ../../.gitignore .",
+    "format": "eslint . --ext .js --ignore-path ../../.gitignore --fix",
+    "lint": "eslint . --ext .js --ignore-path ../../.gitignore",
     "test": "exit 0",
     "test:coverage": "exit 0"
   },
@@ -27,6 +27,9 @@
   "homepage": "https://github.com/LukeShay/lukeshay-web#readme",
   "devDependencies": {
     "@lukeshay/eslint-config": "1.0.0",
-    "eslint": "^7.0.0"
+    "prettier": "^2.0.5",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.2"
   }
 }

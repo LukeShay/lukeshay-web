@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/jest-config",
+      "comment": "",
+      "type": "none"
+    }
+  ],
+  "packageName": "@lukeshay/jest-config",
+  "email": "lshay@sourcesallies.com"
+}
