@@ -2,6 +2,18 @@
   "name": "@lukeshay/eslint-config",
   "entries": [
     {
+      "version": "1.0.1",
+      "tag": "@lukeshay/eslint-config_v1.0.1",
+      "date": "Mon, 25 May 2020 22:19:41 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Updated parser options to include sourceType."
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.0",
       "tag": "@lukeshay/eslint-config_v1.0.0",
       "date": "Fri, 22 May 2020 00:19:10 GMT",

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -e
 
 LIBS=libs/*
 TOOLS=tools/*
@@ -20,14 +20,16 @@ node common/scripts/install-run-rush.js rebuild --verbose \
 node common/scripts/install-run-rush.js publish --apply --publish --npm-auth-token $1 || exit 1
 
 git checkout -b ${BRANCH_NAME}
-git acm ${COMMIT}
+git add .
+git commit -m ${COMMIT}
 git push --set-upstream origin ${BRANCH_NAME}
 
 for D in `find tools -type d -maxdepth 1`
 do
   cd "${D}"
   V=$(npm view . version)
-  git tag "@lukeshay/${D:5:}_${V}"
+  git tag "@lukeshay/${D:6}_${V}"
+  cd ../..
 done
 
 git push --tags

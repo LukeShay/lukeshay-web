@@ -1,6 +1,6 @@
 {
   "name": "@lukeshay/rollup-config-typescript",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "My rollup configuration for typescript",
   "main": "index.js",
   "publishConfig": {
@@ -30,7 +30,7 @@
     "rollup-plugin-typescript2": "^0.27.1"
   },
   "devDependencies": {
-    "@lukeshay/eslint-config": "1.0.0",
+    "@lukeshay/eslint-config": "1.0.1",
     "prettier": "^2.0.5",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.11.0",
