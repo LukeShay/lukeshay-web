@@ -6,7 +6,7 @@ import strip from '@rollup/plugin-strip';
 import { terser } from 'rollup-plugin-terser';
 
 export function get_config(pkg, input, cjs, es, umd, iife) {
-  var config = {
+  const config = {
     input,
     output: [],
     external: [...Object.keys(pkg.dependencies || {})],
@@ -36,6 +36,8 @@ export function get_config(pkg, input, cjs, es, umd, iife) {
   if (iife) {
     config.output.append({ file: pkg.iife, format: 'iife' });
   }
+
+  return config;
 }
 
 export const config = {
