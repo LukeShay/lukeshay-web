@@ -1,8 +1,5 @@
-#!/bin/sh -e
+#!/bin/sh
 
-LIBS=libs/*
-TOOLS=tools/*
-SDKS=sdks/*
 PWD=$(pwd)
 
 yarn config set "//registry.npmjs.org/:_authToken" "$1" && yarn config set "@lukeshay:registry" "https://registry.npmjs.org/"
@@ -24,7 +21,7 @@ git add .
 git commit -m ${COMMIT}
 git push --set-upstream origin ${BRANCH_NAME}
 
-for D in `find tools -type d -maxdepth 1`
+for D in `find tools -type d -maxdepth 1 -mindepth 1`
 do
   cd "${D}"
   V=$(npm view . version)
