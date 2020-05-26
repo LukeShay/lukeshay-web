@@ -1,0 +1,25 @@
+{
+  "name": "@lukeshay/rollup-config-typescript",
+  "entries": [
+    {
+      "version": "0.0.6",
+      "tag": "@lukeshay/rollup-config-typescript_v0.0.6",
+      "date": "Mon, 25 May 2020 22:19:41 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Return config."
+          },
+          {
+            "comment": "New Package"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@lukeshay/eslint-config\" from `1.0.0` to `1.0.1`"
+          }
+        ]
+      }
+    }
+  ]
+}

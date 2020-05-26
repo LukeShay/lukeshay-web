@@ -2,6 +2,21 @@
   "name": "@lukeshay/eslint-config-react-typescript",
   "entries": [
     {
+      "version": "1.0.1",
+      "tag": "@lukeshay/eslint-config-react-typescript_v1.0.1",
+      "date": "Mon, 25 May 2020 22:19:41 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@lukeshay/eslint-config-typescript\" from `^1.0.0` to `^1.0.1`"
+          },
+          {
+            "comment": "Updating dependency \"@lukeshay/eslint-config\" from `1.0.0` to `1.0.1`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.0",
       "tag": "@lukeshay/eslint-config-react-typescript_v1.0.0",
       "date": "Fri, 22 May 2020 00:19:10 GMT",

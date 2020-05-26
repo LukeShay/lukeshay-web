@@ -1,8 +1,5 @@
 #!/bin/sh
 
-LIBS=libs/*
-TOOLS=tools/*
-SDKS=sdks/*
 PWD=$(pwd)
 
 yarn config set "//registry.npmjs.org/:_authToken" "$1" && yarn config set "@lukeshay:registry" "https://registry.npmjs.org/"
@@ -20,14 +17,16 @@ node common/scripts/install-run-rush.js rebuild --verbose \
 node common/scripts/install-run-rush.js publish --apply --publish --npm-auth-token $1 || exit 1
 
 git checkout -b ${BRANCH_NAME}
-git acm ${COMMIT}
+git add .
+git commit -m ${COMMIT}
 git push --set-upstream origin ${BRANCH_NAME}
 
-for D in `find tools -type d -maxdepth 1`
+for D in `find tools -type d -maxdepth 1 -mindepth 1`
 do
   cd "${D}"
   V=$(npm view . version)
-  git tag "@lukeshay/${D:5:}_${V}"
+  git tag "@lukeshay/${D:6}_${V}"
+  cd ../..
 done
 
 git push --tags
