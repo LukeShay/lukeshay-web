@@ -2,6 +2,18 @@
   "name": "@lukeshay/eslint-config-typescript",
   "entries": [
     {
+      "version": "1.0.2",
+      "tag": "@lukeshay/eslint-config-typescript_v1.0.2",
+      "date": "Fri, 29 May 2020 00:14:53 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fixed typo.\""
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "@lukeshay/eslint-config-typescript_v1.0.1",
       "date": "Mon, 25 May 2020 22:19:41 GMT",
