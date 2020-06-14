@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "comment": "Move rollup to a peer.",
+      "type": "patch",
+      "packageName": "@lukeshay/rollup-config"
+    }
+  ],
+  "packageName": "@lukeshay/rollup-config",
+  "email": "shay.luke17@gmail.com"
+}
