@@ -19,8 +19,6 @@ node common/scripts/install-run-rush.js rebuild --verbose \
 && \
 node common/scripts/install-run-rush.js publish --apply --publish || exit 1
 
-
-
 for D in `find tools -type d -maxdepth 1 -mindepth 1`
 do
   cd "${D}"
