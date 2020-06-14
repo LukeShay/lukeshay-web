@@ -2,6 +2,26 @@
   "name": "@lukeshay/eslint-config-react-typescript",
   "entries": [
     {
+      "version": "1.0.2",
+      "tag": "@lukeshay/eslint-config-react-typescript_v1.0.2",
+      "date": "Sun, 14 Jun 2020 16:45:05 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Added LICENSE."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@lukeshay/eslint-config-typescript\" from `^1.0.2` to `^1.0.3`"
+          },
+          {
+            "comment": "Updating dependency \"@lukeshay/eslint-config\" from `1.0.1` to `1.0.2`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "@lukeshay/eslint-config-react-typescript_v1.0.1",
       "date": "Mon, 25 May 2020 22:19:41 GMT",

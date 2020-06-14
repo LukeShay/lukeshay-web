@@ -1,6 +1,6 @@
 {
   "name": "@lukeshay/typescript-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My tsconfig",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
