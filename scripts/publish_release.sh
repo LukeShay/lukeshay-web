@@ -2,7 +2,10 @@
 
 PWD=$(pwd)
 
-yarn config set "//registry.npmjs.org/:_authToken" "$1" && yarn config set "@lukeshay:registry" "https://registry.npmjs.org/"
+# yarn config set "//registry.npmjs.org/:_authToken" "$1" && yarn config set "@lukeshay:registry" "https://registry.npmjs.org/"
+
+npm i -g npm-cli-login
+npm-cli-login
 
 DATE=$(date +'%m-%d-%y-%H-%M')
 BRANCH_NAME="release-${DATE}"

@@ -1,13 +1,12 @@
-import typescript from 'rollup-plugin-typescript2';
-import pkg from './package.json';
-import resolve from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs';
-import strip from '@rollup/plugin-strip';
-import { terser } from 'rollup-plugin-terser';
+const commonjs = require('@rollup/plugin-commonjs');
+const resolve = require('@rollup/plugin-node-resolve');
+const strip = require('@rollup/plugin-strip');
+const { terser } = require('rollup-plugin-terser');
+const typescript = require('rollup-plugin-typescript2');
 
-export function get_config(pkg, input, cjs, es, umd, iife) {
+module.exports = (pkg) => {
   const config = {
-    input,
+    input: pkg.main,
     output: [],
     external: [...Object.keys(pkg.dependencies || {})],
     plugins: [
@@ -21,55 +20,10 @@ export function get_config(pkg, input, cjs, es, umd, iife) {
     ],
   };
 
-  if (cjs) {
-    config.output.append({ file: pkg.cjs, format: 'cjs' });
-  }
-
-  if (es) {
-    config.output.append({ file: pkg.es, format: 'es' });
-  }
-
-  if (umd) {
-    config.output.append({ file: pkg.umd, format: 'umd' });
-  }
-
-  if (iife) {
-    config.output.append({ file: pkg.iife, format: 'iife' });
-  }
+  pkg.cjs && config.output.push({ file: pkg.cjs, format: 'cjs' });
+  pkg.es && config.output.push({ file: pkg.es, format: 'es' });
+  pkg.umd && config.output.push({ file: pkg.umd, format: 'umd' });
+  pkg.iife && config.output.push({ file: pkg.iife, format: 'iife' });
 
   return config;
-}
-
-export const config = {
-  input: 'src/main.ts',
-  output: [
-    {
-      file: pkg.main,
-      format: 'cjs',
-    },
-    {
-      file: pkg.module,
-      format: 'es',
-    },
-    {
-      file: pkg.umd,
-      format: 'umd',
-      name: 'PaymentGateway',
-    },
-    {
-      file: pkg.browser,
-      format: 'iife',
-      name: 'PaymentGateway',
-    },
-  ],
-  external: [...Object.keys(pkg.dependencies || {})],
-  plugins: [
-    typescript({
-      tsconfig: './tsconfig.json',
-    }),
-    terser(),
-    resolve(),
-    commonjs(),
-    strip(),
-  ],
 };
