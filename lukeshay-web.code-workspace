@@ -29,8 +29,8 @@
       "path": "./tools/babel-config-react-typescript"
     },
     {
-      "name": "@lukeshay/rollup-config-typescript",
-      "path": "./tools/rollup-config-typescript"
+      "name": "@lukeshay/rollup-config",
+      "path": "./tools/rollup-config"
     },
     {
       "name": "Documentation",

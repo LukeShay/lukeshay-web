@@ -1,15 +1,23 @@
 {
-  "name": "@lukeshay/rollup-config-typescript",
-  "version": "0.0.6",
-  "description": "My rollup configuration for typescript",
-  "main": "index.js",
+  "name": "@lukeshay/rollup-config",
+  "version": "0.0.1",
+  "description": "My rollup configuration for JavaScript and TypeScript",
+  "input": "index.js",
+  "main": "./dist/cjs/index.js",
+  "cjs": "./dist/cjs/index.js",
+  "esm": "./dist/es/index.js",
+  "exports": {
+    "require": "./dist/cjs/index.js",
+    "import": "./dist/es/index.js"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "scripts": {
-    "build": "exit 0",
-    "clean": "rm -rf .rush *.log",
+    "prebuild": "mkdir dist",
+    "build": "rollup -c --silent",
+    "clean": "rm -rf dist *.log",
     "format": "eslint . --ext .js --ignore-path ../../.gitignore --fix",
     "lint": "eslint . --ext .js --ignore-path ../../.gitignore",
     "test": "exit 0",
@@ -18,13 +26,16 @@
   "repository": "https://github.com/LukeShay/route-rating-web.git",
   "author": "Luke Shay <https://github.com/LukeShay>",
   "license": "MIT",
+  "peerDependencies": {
+    "rollup": "*"
+  },
   "dependencies": {
     "@rollup/plugin-commonjs": "*",
     "@rollup/plugin-node-resolve": "*",
     "@rollup/plugin-strip": "*",
-    "rollup": "*",
     "rollup-plugin-terser": "*",
-    "rollup-plugin-typescript2": "*"
+    "rollup-plugin-typescript2": "*",
+    "@rollup/plugin-auto-install": "*"
   },
   "devDependencies": {
     "@lukeshay/eslint-config": "1.0.1",
@@ -34,7 +45,7 @@
     "eslint-plugin-prettier": "^3.1.2"
   },
   "files": [
-    "index.js",
+    "dist",
     "CHANGELOG.md",
     "LICENSE",
     "README.md",

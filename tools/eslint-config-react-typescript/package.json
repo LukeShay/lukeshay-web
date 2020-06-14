@@ -40,5 +40,13 @@
     "@types/react": "*",
     "react": "*",
     "typescript": "*"
-  }
+  },
+  "files": [
+    "index.js",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "patch.js"
+  ]
 }
