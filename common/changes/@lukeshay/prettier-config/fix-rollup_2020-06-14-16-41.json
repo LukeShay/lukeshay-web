@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "comment": "",
+      "type": "none",
+      "packageName": "@lukeshay/prettier-config"
+    }
+  ],
+  "packageName": "@lukeshay/prettier-config",
+  "email": "shay.luke17@gmail.com"
+}
