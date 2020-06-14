@@ -32,9 +32,9 @@ git push --tags
 node common/scripts/install-run-rush.js update --full --purge
 node common/scripts/install-run-rush.js change --bulk --bump-type none
 
-git checkout -b ${BRANCH_NAME}
+git checkout -b "${BRANCH_NAME}"
 git add .
-git commit -m ${COMMIT}
-git push --set-upstream origin ${BRANCH_NAME}
+git commit -m "${COMMIT}"
+git push --set-upstream origin "${BRANCH_NAME}"
 
-gh pr create -t ${COMMIT} -b ${PR_DESC} -w
+gh pr create -t "${COMMIT}" -b "${PR_DESC}" -w
