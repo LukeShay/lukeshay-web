@@ -27,9 +27,7 @@
   "author": "Luke Shay <https://github.com/LukeShay>",
   "license": "MIT",
   "peerDependencies": {
-    "rollup": "*"
-  },
-  "dependencies": {
+    "rollup": "*",
     "@rollup/plugin-commonjs": "*",
     "@rollup/plugin-node-resolve": "*",
     "@rollup/plugin-strip": "*",
