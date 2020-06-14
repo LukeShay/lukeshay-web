@@ -19,6 +19,8 @@ node common/scripts/install-run-rush.js rebuild --verbose \
 && \
 node common/scripts/install-run-rush.js publish --apply --publish || exit 1
 
+node common/scripts/install-run-rush.js change --bulk --bump-type none
+
 git checkout -b ${BRANCH_NAME}
 git add .
 git commit -m ${COMMIT}
