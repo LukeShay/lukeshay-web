@@ -27,7 +27,6 @@
   "files": [
     "babelrc.json",
     "LICENSE",
-    "package.json",
     "CHANGELOG.md"
   ],
   "dependencies": {

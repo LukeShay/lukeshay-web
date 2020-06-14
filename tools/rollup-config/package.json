@@ -48,7 +48,12 @@
     "dist",
     "CHANGELOG.md",
     "LICENSE",
-    "README.md",
-    "package.json"
+    "README.md"
+  ],
+  "tags": [
+    "rollup",
+    "lukeshay",
+    "javascript",
+    "typescript"
   ]
 }

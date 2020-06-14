@@ -33,7 +33,6 @@
     "CHANGELOG.md",
     "LICENSE",
     "README.md",
-    "package.json",
     "patch.js"
   ]
 }

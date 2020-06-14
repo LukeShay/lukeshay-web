@@ -28,7 +28,6 @@
     "tsconfig.json",
     "tsconfig-web.json",
     "LICENSE",
-    "package.json",
     "CHANGELOG.md"
   ]
 }

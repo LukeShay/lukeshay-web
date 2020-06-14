@@ -1810,9 +1810,9 @@
         "prettier": "^2.0.5"
       }
     },
-    "@rush-temp/rollup-config-typescript": {
-      "version": "file:projects/rollup-config-typescript.tgz",
-      "integrity": "sha512-M7sfv2E3IUzI9Uk9RAHjW/S87kVM3DJrzAvmUOYdlF+/8iNP8B1YliJdUnuKi2S7RNONdJCkiJCyNliZmeazZg==",
+    "@rush-temp/rollup-config": {
+      "version": "file:projects/rollup-config.tgz",
+      "integrity": "sha512-L8HtieE/or3rEubDRmvraaj7bR2N/sW0gIg8ZEy0OxiEpIcoBwE7xZQz9Cfh3MTt/3grSipPpDjwg3wutCjBcA==",
       "requires": {
         "@rollup/plugin-auto-install": "*",
         "@rollup/plugin-commonjs": "*",
