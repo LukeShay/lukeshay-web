@@ -17,7 +17,7 @@ node common/scripts/install-run-rush.js install \
 && \
 node common/scripts/install-run-rush.js rebuild --verbose \
 && \
-node common/scripts/install-run-rush.js publish --apply --publish --npm-auth-token $1 || exit 1
+node common/scripts/install-run-rush.js publish --apply --publish || exit 1
 
 git checkout -b ${BRANCH_NAME}
 git add .
