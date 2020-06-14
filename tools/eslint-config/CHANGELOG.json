@@ -2,6 +2,18 @@
   "name": "@lukeshay/eslint-config",
   "entries": [
     {
+      "version": "1.0.2",
+      "tag": "@lukeshay/eslint-config_v1.0.2",
+      "date": "Sun, 14 Jun 2020 16:45:05 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Added LICENSE."
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "@lukeshay/eslint-config_v1.0.1",
       "date": "Mon, 25 May 2020 22:19:41 GMT",

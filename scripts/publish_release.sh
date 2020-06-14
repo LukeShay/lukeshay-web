@@ -21,10 +21,6 @@ node common/scripts/install-run-rush.js publish --apply --publish || exit 1
 
 node common/scripts/install-run-rush.js change --bulk --bump-type none
 
-git checkout -b ${BRANCH_NAME}
-git add .
-git commit -m ${COMMIT}
-git push --set-upstream origin ${BRANCH_NAME}
 
 for D in `find tools -type d -maxdepth 1 -mindepth 1`
 do
@@ -35,5 +31,10 @@ do
 done
 
 git push --tags
+
+git checkout -b ${BRANCH_NAME}
+git add .
+git commit -m ${COMMIT}
+git push --set-upstream origin ${BRANCH_NAME}
 
 gh pr create -t ${COMMIT} -b ${PR_DESC} -w
