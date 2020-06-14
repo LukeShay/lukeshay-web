@@ -1,27 +1,36 @@
-## What
+**Description**
 
-<!-- Explain the implementation and architectural changes you're introducing with this PR. -->
+<!-- Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change. ->>
 
-## Ticket
+Fixes # (issue)
 
-<!-- Link to ticket for this feature or fix. -->
+**Type of change**
 
-## Test Plan
+<!-- Please delete options that are not relevant. -->
 
-<!-- Describe how your changes should be tested. -->
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] This change requires a documentation update
 
-## Areas of Possible Regression
+**How Has This Been Tested?**
 
-<!-- Features that may be impacted by these changes. -->
+<!-- Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration -->
 
-## Out of scope changes made in PR
+- [ ] Test A
+- [ ] Test B
 
-<!-- Other bugs or features also included in this PR. -->
+**Out of scope changes**
 
-## Dependencies
+**Checklist**
 
-<!-- Link to other PRs or tickets. -->
+- [ ] My code follows the style guidelines of this project
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] My changes generate no new warnings
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally with my changes
+- [ ] My changes are backwards compatible
 
-## Feedback
-
-<!-- Mention the people or team you'd like to get feedback from. Explain the type of feedback you're looking for. -->
+**Reviewers**
