@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/jest-config",
+      "comment": "Added LICENSE.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@lukeshay/jest-config",
+  "email": "shay.luke17@gmail.com"
+}

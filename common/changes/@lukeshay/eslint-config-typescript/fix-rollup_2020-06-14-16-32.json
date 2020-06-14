@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/eslint-config-typescript",
+      "comment": "Added LICENSE.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@lukeshay/eslint-config-typescript",
+  "email": "shay.luke17@gmail.com"
+}

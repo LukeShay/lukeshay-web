@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/prettier-config",
+      "comment": "Added LICENSE.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@lukeshay/prettier-config",
+  "email": "shay.luke17@gmail.com"
+}
