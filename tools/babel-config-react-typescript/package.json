@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/LukeShay/lukeshay-web#readme",
   "files": [
-    "babelrc.json"
+    "babelrc.json",
+    "LICENSE",
+    "CHANGELOG.md"
   ],
   "dependencies": {
     "@babel/cli": "^7.8.4",

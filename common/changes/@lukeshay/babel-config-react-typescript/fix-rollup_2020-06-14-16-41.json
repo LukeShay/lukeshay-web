@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "comment": "",
+      "type": "none",
+      "packageName": "@lukeshay/babel-config-react-typescript"
+    }
+  ],
+  "packageName": "@lukeshay/babel-config-react-typescript",
+  "email": "shay.luke17@gmail.com"
+}

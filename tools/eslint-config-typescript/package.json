@@ -36,5 +36,12 @@
   },
   "peerDependencies": {
     "typescript": "*"
-  }
+  },
+  "files": [
+    "index.js",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "patch.js"
+  ]
 }

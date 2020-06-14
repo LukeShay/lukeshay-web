@@ -50,12 +50,11 @@
       "allowWarningsInSuccessfulBuild": true
     },
     {
-      "name": "publish-release",
+      "name": "generate-workspace",
       "commandKind": "global",
-      "shellCommand": "./scripts/publish_release.sh",
-      "safeForSimultaneousRushProcesses": false,
-      "summary": "Attempts to publish new versions of the packages.",
-      "description": "Invokes the `publish_release.sh` script."
+      "summary": "Generates your VSCode workspace",
+      "description": "Runs scripts/generate_vscode_workspace.sh to generate a workspace for you.",
+      "shellCommand": "./scripts/generate_vscode_workspace.sh"
     }
   ],
 

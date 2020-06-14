@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "comment": "",
+      "type": "none",
+      "packageName": "@lukeshay/eslint-config"
+    }
+  ],
+  "packageName": "@lukeshay/eslint-config",
+  "email": "shay.luke17@gmail.com"
+}

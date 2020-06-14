@@ -2,7 +2,10 @@
 
 PWD=$(pwd)
 
-yarn config set "//registry.npmjs.org/:_authToken" "$1" && yarn config set "@lukeshay:registry" "https://registry.npmjs.org/"
+# yarn config set "//registry.npmjs.org/:_authToken" "$1" && yarn config set "@lukeshay:registry" "https://registry.npmjs.org/"
+
+npm i -g npm-cli-login
+npm-cli-login
 
 DATE=$(date +'%m-%d-%y-%H-%M')
 BRANCH_NAME="release-${DATE}"
@@ -14,7 +17,9 @@ node common/scripts/install-run-rush.js install \
 && \
 node common/scripts/install-run-rush.js rebuild --verbose \
 && \
-node common/scripts/install-run-rush.js publish --apply --publish --npm-auth-token $1 || exit 1
+node common/scripts/install-run-rush.js publish --apply --publish || exit 1
+
+node common/scripts/install-run-rush.js change --bulk --bump-type none
 
 git checkout -b ${BRANCH_NAME}
 git add .

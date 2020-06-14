@@ -26,6 +26,8 @@
   "homepage": "https://github.com/LukeShay/lukeshay-web#readme",
   "files": [
     "tsconfig.json",
-    "tsconfig-web.json"
+    "tsconfig-web.json",
+    "LICENSE",
+    "CHANGELOG.md"
   ]
 }
