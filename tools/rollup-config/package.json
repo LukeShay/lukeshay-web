@@ -26,14 +26,15 @@
   "repository": "https://github.com/LukeShay/route-rating-web.git",
   "author": "Luke Shay <https://github.com/LukeShay>",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "rollup": "*",
     "@rollup/plugin-commonjs": "*",
     "@rollup/plugin-node-resolve": "*",
     "@rollup/plugin-strip": "*",
     "rollup-plugin-terser": "*",
     "rollup-plugin-typescript2": "*",
-    "@rollup/plugin-auto-install": "*"
+    "@rollup/plugin-auto-install": "*",
+    "@rollup/plugin-json": "*"
   },
   "devDependencies": {
     "@lukeshay/eslint-config": "1.0.2",

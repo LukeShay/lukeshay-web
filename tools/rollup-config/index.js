@@ -1,5 +1,6 @@
 import auto from '@rollup/plugin-auto-install';
 import commonjs from '@rollup/plugin-commonjs';
+import json from '@rollup/plugin-json';
 import resolve from '@rollup/plugin-node-resolve';
 import strip from '@rollup/plugin-strip';
 import { terser } from 'rollup-plugin-terser';
@@ -10,7 +11,7 @@ export const javascriptConfig = (pkg) => {
     input: pkg.input,
     output: [],
     external: [...Object.keys(pkg.dependencies || {})],
-    plugins: [terser(), resolve(), commonjs(), strip(), auto()],
+    plugins: [terser(), resolve(), commonjs(), strip(), auto(), json()],
   };
 
   if (pkg.cjs) config.output.push({ file: pkg.cjs, format: 'cjs' });
