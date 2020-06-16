@@ -2,6 +2,27 @@
   "name": "@lukeshay/rollup-config",
   "entries": [
     {
+      "version": "0.0.3",
+      "tag": "@lukeshay/rollup-config_v0.0.3",
+      "date": "Tue, 16 Jun 2020 04:35:46 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fixed exports paths."
+          },
+          {
+            "comment": "Fix build.\""
+          },
+          {
+            "comment": "Replace ./dist with dist."
+          },
+          {
+            "comment": "Move rollup to a peer."
+          }
+        ]
+      }
+    },
+    {
       "version": "0.0.2",
       "tag": "@lukeshay/rollup-config_v0.0.2",
       "date": "Sun, 14 Jun 2020 16:45:05 GMT",
