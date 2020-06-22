@@ -2,6 +2,18 @@
   "name": "@lukeshay/rollup-config",
   "entries": [
     {
+      "version": "0.0.3",
+      "tag": "@lukeshay/rollup-config_v0.0.3",
+      "date": "Sun, 14 Jun 2020 17:26:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Replace ./dist with dist."
+          }
+        ]
+      }
+    },
+    {
       "version": "0.0.2",
       "tag": "@lukeshay/rollup-config_v0.0.2",
       "date": "Sun, 14 Jun 2020 16:45:05 GMT",
