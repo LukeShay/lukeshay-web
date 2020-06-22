@@ -1,6 +1,13 @@
 # Change Log - @lukeshay/rollup-config
 
-This log was last generated on Mon, 22 Jun 2020 04:25:55 GMT and should not be manually modified.
+This log was last generated on Mon, 22 Jun 2020 04:38:59 GMT and should not be manually modified.
+
+## 0.1.1
+Mon, 22 Jun 2020 04:38:59 GMT
+
+### Patches
+
+- Fix re-export of typescript.
 
 ## 0.1.0
 Mon, 22 Jun 2020 04:25:55 GMT
