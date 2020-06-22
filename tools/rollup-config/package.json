@@ -27,20 +27,22 @@
   "author": "Luke Shay <https://github.com/LukeShay>",
   "license": "MIT",
   "peerDependencies": {
-    "rollup": "*",
-    "@rollup/plugin-commonjs": "*",
-    "@rollup/plugin-node-resolve": "*",
-    "@rollup/plugin-strip": "*",
-    "rollup-plugin-terser": "*",
-    "rollup-plugin-typescript2": "*",
-    "@rollup/plugin-auto-install": "*"
+    "rollup": "^2.18.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-auto-install": "^2.1.0",
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-strip": "^1.3.3",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.27.1"
   },
   "devDependencies": {
     "@lukeshay/eslint-config": "1.0.2",
-    "prettier": "^2.0.5",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.2"
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.5"
   },
   "files": [
     "dist",
