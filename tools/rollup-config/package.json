@@ -1,6 +1,6 @@
 {
   "name": "@lukeshay/rollup-config",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "My rollup configuration for JavaScript and TypeScript",
   "input": "index.js",
   "main": "dist/cjs/index.js",
