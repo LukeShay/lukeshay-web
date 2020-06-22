@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/rollup-config",
+      "comment": "Changed deps.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@lukeshay/rollup-config",
+  "email": "shay.luke17@gmail.com"
+}
