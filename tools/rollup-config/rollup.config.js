@@ -1,4 +1,4 @@
-import { javascriptConfig } from './index';
+import { createRollupConfig } from './index';
 import pkg from './package.json';
 
-export default javascriptConfig(pkg);
+export default createRollupConfig(pkg, []);

@@ -6,7 +6,7 @@ import { terser } from 'rollup-plugin-terser';
 
 export { typescript } from 'rollup-plugin-typescript2';
 
-export const createRollupConfig = (pkg, plugins) => {
+export const createRollupConfig = (pkg, plugins = []) => {
   const rollupConfig = {
     input: pkg.input,
     output: [],
