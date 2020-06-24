@@ -21,10 +21,6 @@
       "path": "./tools/jest-config"
     },
     {
-      "name": "@lukeshay/prettier-config",
-      "path": "./tools/prettier-config"
-    },
-    {
       "name": "@lukeshay/babel-config-react-typescript",
       "path": "./tools/babel-config-react-typescript"
     },
