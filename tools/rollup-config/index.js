@@ -7,20 +7,29 @@ import typescript from 'rollup-plugin-typescript2';
 
 export { default as typescript } from 'rollup-plugin-typescript2';
 
-export const createRollupConfig = (pkg, plugins = []) => {
-  const rollupConfig = {
+export const createRollupConfig = (args, pkg, plugins = []) => {
+  plugins = [auto(), commonjs(), resolve(), ...plugins];
+
+  const output = [];
+
+  if (!args.debug) {
+    console.log('Running production build.');
+    plugins.push(strip(), terser());
+  }
+
+  if (pkg.main) output.push({ file: pkg.main, format: 'cjs' });
+  if (pkg.module) output.push({ file: pkg.module, format: 'esm' });
+  if (pkg.umd) output.push({ file: pkg.umd, format: 'umd' });
+  if (pkg.iife) output.push({ file: pkg.iife, format: 'iife' });
+
+  delete args.debug;
+
+  return {
     input: pkg.input,
-    output: [],
+    output,
     external: [...Object.keys(pkg.dependencies || {})],
-    plugins: [auto(), commonjs(), resolve(), strip(), terser(), ...plugins],
+    plugins,
   };
-
-  if (pkg.cjs) rollupConfig.output.push({ file: pkg.cjs, format: 'cjs' });
-  if (pkg.esm) rollupConfig.output.push({ file: pkg.esm, format: 'esm' });
-  if (pkg.umd) rollupConfig.output.push({ file: pkg.umd, format: 'umd' });
-  if (pkg.iife) rollupConfig.output.push({ file: pkg.iife, format: 'iife' });
-
-  return rollupConfig;
 };
 
 export const createTypescriptRollupConfig = (pkg) => {

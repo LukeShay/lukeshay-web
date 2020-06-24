@@ -1,4 +1,4 @@
 import { createRollupConfig } from './index';
 import pkg from './package.json';
 
-export default createRollupConfig(pkg, []);
+export default (args) => createRollupConfig(args, pkg);
