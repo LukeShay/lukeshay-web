@@ -1,9 +1,9 @@
 {
   "changes": [
     {
-      "packageName": "@lukeshay/eslint-config",
-      "comment": "Update dependencies.",
-      "type": "patch"
+      "comment": "",
+      "type": "none",
+      "packageName": "@lukeshay/eslint-config"
     }
   ],
   "packageName": "@lukeshay/eslint-config",

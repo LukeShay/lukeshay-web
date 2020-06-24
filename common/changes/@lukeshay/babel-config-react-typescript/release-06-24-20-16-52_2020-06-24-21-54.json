@@ -1,9 +1,9 @@
 {
   "changes": [
     {
-      "packageName": "@lukeshay/babel-config-react-typescript",
-      "comment": "Updated dependencies.",
-      "type": "patch"
+      "comment": "",
+      "type": "none",
+      "packageName": "@lukeshay/babel-config-react-typescript"
     }
   ],
   "packageName": "@lukeshay/babel-config-react-typescript",

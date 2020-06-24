@@ -2,6 +2,18 @@
   "name": "@lukeshay/eslint-config",
   "entries": [
     {
+      "version": "1.0.3",
+      "tag": "@lukeshay/eslint-config_v1.0.3",
+      "date": "Wed, 24 Jun 2020 21:52:18 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update dependencies."
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.2",
       "tag": "@lukeshay/eslint-config_v1.0.2",
       "date": "Sun, 14 Jun 2020 16:45:05 GMT",

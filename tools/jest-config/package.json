@@ -1,6 +1,6 @@
 {
   "name": "@lukeshay/jest-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My Jest configuration.",
   "main": "index.js",
   "publishConfig": {
@@ -34,7 +34,7 @@
     "ts-jest": "^26.1.1"
   },
   "devDependencies": {
-    "@lukeshay/eslint-config": "1.0.2",
+    "@lukeshay/eslint-config": "1.0.3",
     "prettier": "^2.0.5",
     "eslint": "^7.3.1",
     "eslint-config-prettier": "^6.11.0",

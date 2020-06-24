@@ -2,6 +2,23 @@
   "name": "@lukeshay/eslint-config-typescript",
   "entries": [
     {
+      "version": "1.0.4",
+      "tag": "@lukeshay/eslint-config-typescript_v1.0.4",
+      "date": "Wed, 24 Jun 2020 21:52:18 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update dependencies."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@lukeshay/eslint-config\" from `1.0.2` to `1.0.3`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.3",
       "tag": "@lukeshay/eslint-config-typescript_v1.0.3",
       "date": "Sun, 14 Jun 2020 16:45:05 GMT",

@@ -1,9 +1,9 @@
 {
   "changes": [
     {
-      "packageName": "@lukeshay/typescript-config",
-      "comment": "Update dependencies.",
-      "type": "patch"
+      "comment": "",
+      "type": "none",
+      "packageName": "@lukeshay/typescript-config"
     }
   ],
   "packageName": "@lukeshay/typescript-config",
