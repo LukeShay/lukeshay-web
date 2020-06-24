@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "comment": "",
+      "type": "none",
+      "packageName": "@lukeshay/rollup-config"
+    }
+  ],
+  "packageName": "@lukeshay/rollup-config",
+  "email": "lshay@sourceallies.com"
+}
