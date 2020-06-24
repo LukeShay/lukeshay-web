@@ -1,18 +1,22 @@
 {
   "$schema": "http://json.schemastore.org/tsconfig",
-
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "declaration": true,
+    "declarationDir": "dist/types",
     "esModuleInterop": true,
-    "lib": ["ESNext"],
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "ESNext"
+    ],
     "module": "ESNext",
     "moduleResolution": "node",
-    "outDir": "./dist/",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist",
+    "removeComments": true,
     "strict": true,
-    "target": "es5"
-  },
-  "exclude": ["./node_modules/**/*", "./dist/**/*", "./src/**/*.spec.*", "./src/**/*.test.*"],
-  "include": ["./src/**/*.js", "./src/**/*.ts"],
-  "compileOnSave": true
+    "target": "ES6"
+  }
 }

@@ -4,12 +4,7 @@
   "description": "My rollup configuration for JavaScript and TypeScript",
   "input": "index.js",
   "main": "dist/cjs/index.js",
-  "cjs": "dist/cjs/index.js",
-  "esm": "dist/es/index.js",
-  "exports": {
-    "require": "dist/cjs/index.js",
-    "import": "dist/es/index.js"
-  },
+  "module": "dist/es/index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
@@ -32,16 +27,17 @@
   "dependencies": {
     "@rollup/plugin-auto-install": "^2.1.0",
     "@rollup/plugin-commonjs": "^13.0.0",
-    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-node-resolve": "^8.1.0",
     "@rollup/plugin-strip": "^1.3.3",
+    "rollup-plugin-babel-minify": "^10.0.0",
     "rollup-plugin-terser": "^6.1.0",
     "rollup-plugin-typescript2": "^0.27.1"
   },
   "devDependencies": {
     "@lukeshay/eslint-config": "1.0.2",
-    "eslint": "^7.0.0",
+    "eslint": "^7.3.1",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5"
   },
   "files": [

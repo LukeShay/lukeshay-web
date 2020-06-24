@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@lukeshay/eslint-config",
+      "comment": "Update dependencies.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@lukeshay/eslint-config",
+  "email": "lshay@sourceallies.com"
+}

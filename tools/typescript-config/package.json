@@ -29,5 +29,8 @@
     "tsconfig-web.json",
     "LICENSE",
     "CHANGELOG.md"
-  ]
+  ],
+  "peerDependencies": {
+    "typescript": "*"
+  }
 }
