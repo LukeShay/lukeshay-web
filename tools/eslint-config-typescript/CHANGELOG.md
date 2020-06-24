@@ -1,6 +1,13 @@
 # Change Log - @lukeshay/eslint-config-typescript
 
-This log was last generated on Sun, 14 Jun 2020 16:45:05 GMT and should not be manually modified.
+This log was last generated on Wed, 24 Jun 2020 21:52:18 GMT and should not be manually modified.
+
+## 1.0.4
+Wed, 24 Jun 2020 21:52:18 GMT
+
+### Patches
+
+- Update dependencies.
 
 ## 1.0.3
 Sun, 14 Jun 2020 16:45:05 GMT

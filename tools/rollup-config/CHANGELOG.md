@@ -1,6 +1,13 @@
 # Change Log - @lukeshay/rollup-config
 
-This log was last generated on Mon, 22 Jun 2020 04:38:59 GMT and should not be manually modified.
+This log was last generated on Wed, 24 Jun 2020 21:52:18 GMT and should not be manually modified.
+
+## 0.2.0
+Wed, 24 Jun 2020 21:52:18 GMT
+
+### Minor changes
+
+- Update dependencies and made debug build.
 
 ## 0.1.1
 Mon, 22 Jun 2020 04:38:59 GMT
