@@ -33,5 +33,7 @@ export const createRollupConfig = (args, pkg, plugins = []) => {
 };
 
 export const createTypescriptRollupConfig = (pkg) => {
-  return createRollupConfig(pkg, [typescript({ tsconfig: './tsconfig.json' })]);
+  return createRollupConfig({}, pkg, [
+    typescript({ tsconfig: './tsconfig.json' }),
+  ]);
 };
